@@ -1,10 +1,12 @@
 var bg = document.body
-var date = new Date()
-var hour = date.getHours()
-console.log(hour)
+var hour = new Date().getHours()
 
-if (hour >= 6 && hour < 20) {
+if (hour >= 5 && hour <= 7) {
+  bg.classList.add('dawn')
+} else if (hour > 7 && hour < 18) {
   bg.classList.add('day')
+} else if (hour >= 18 && hour <= 20) {
+  bg.classList.add('dusk')
 } else {
   bg.classList.add('night')
 }

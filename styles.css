@@ -1,18 +1,22 @@
-body {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
 html {
   height: 100%;
 }
 
-.logo {
-  left: 50%;
-  margin: 0 auto;
+.container {
+  margin: auto;
   position: absolute;
-  top: 50%;
+  top: 25%;
+  width: 99%;
+}
+
+.logo {
+  margin: 0 auto 0 auto;
+  padding: 1em;
+  width: 6em;
+}
+
+.unlaunched {
+  display: none;
 }
 
 .day {
