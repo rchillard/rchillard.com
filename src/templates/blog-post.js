@@ -1,8 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
 
-export default () => (
+export default () => {
+  return (
     <Layout>
-        <p>Send us a message!</p>
+      <div>Hello blog post</div>
     </Layout>
-)
+  )
+}

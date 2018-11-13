@@ -1,16 +1,22 @@
 module.exports = {
     siteMetadata: {
-        title: 'My Blog',
-        description: 'This is my cool blog.'
+      title: `Pandas Eating Lots`,
     },
     plugins: [
-        `gatsby-transformer-remark`,
-        {
-            resolve: `gatsby-source-filesystem`,
-            options: {
-                name: `pages`,
-                path: `${__dirname}/src/pages`
-            }
-        }
-    ]
-}
+      {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          name: `src`,
+          path: `${__dirname}/src/`,
+        },
+      },
+      `gatsby-transformer-remark`,
+      `gatsby-plugin-emotion`,
+      {
+        resolve: `gatsby-plugin-typography`,
+        options: {
+          pathToConfigModule: `src/utils/typography`,
+        },
+      },
+    ],
+  }
