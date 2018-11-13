@@ -6,11 +6,15 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
     "gatsby": "^2.0.33",
+    "gatsby-source-filesystem": "^2.0.8",
+    "gatsby-transformer-remark": "^2.1.12",
     "react": "^16.5.1",
     "react-dom": "^16.5.1"
-  }
+  },
+  "devDependencies": {}
 }
