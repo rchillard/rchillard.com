@@ -1,12 +1,12 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site.
+# Learn, Build, Teach Blog
+My [personal blog](https://rchillard.com/) which I use primarily to *learn in public* and track my progress
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
-
-Or [view the live demo here](https://gatsby-starter-hello-world-demo.netlify.com/).
-
-## Running in development
-`gatsby develop`
+## My Areas of Interest
+Here are the things that you might see on my blog:
+* Web Development
+    * Node
+    * React
+* Infrastructure
+    * Linux
+    * Docker
+* DevOps

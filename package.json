@@ -15,15 +15,18 @@
     "gatsby": "^2.0.33",
     "gatsby-plugin-emotion": "^2.0.6",
     "gatsby-plugin-typography": "^2.2.1",
+    "gatsby-remark-emojis": "^0.2.3",
+    "gatsby-remark-prismjs": "^3.0.3",
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-remark": "^2.1.12",
     "gh-pages": "^2.0.1",
+    "prismjs": "^1.15.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-emotion": "^9.2.12",
     "react-typography": "^0.16.13",
     "typography": "^0.16.17",
-    "typography-theme-kirkham": "^0.16.3"
+    "typography-theme-noriega": "^0.15.10"
   },
   "devDependencies": {}
 }
