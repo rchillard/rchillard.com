@@ -2,10 +2,12 @@ import React from "react"
 import { css } from "react-emotion"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
+
 require("prismjs/themes/prism-coy.css")
 
 export default ({ data, pageContext }) => { 
   const {next, prev} = pageContext
+
   const post = data.markdownRemark
   return (
     <Layout>
@@ -29,14 +31,14 @@ export default ({ data, pageContext }) => {
 }
 
 export const query = graphql`
-  query {
-    markdownRemark {
+  query ($slug: String!) {
+    markdownRemark(fields: {slug: {eq: $slug } }) {
+      html
+      timeToRead
       frontmatter {
         title
         date(formatString: "MMM DD, YYYY")
       }
-      timeToRead
-      html
     }
   }
 `

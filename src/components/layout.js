@@ -37,14 +37,12 @@ render={data => (
         {data.site.siteMetadata.title}
       </h3>
     </Link>
-    <Link
-      to={`/about/`}
-      className={css`
-        float: right;
-      `}
-    >
-      About
-    </Link>
+    <div className={css`float: right;`}>
+      {/* <Link to={`/lessons/`} className={css`margin-right: 1em`}>Lessons</Link>
+      <Link to={`/projects/`} className={css`margin-right: 1em`}>Projects</Link>
+      <Link to={`/resources/`} className={css`margin-right: 1em`}>Resources</Link> */}
+      <Link to={`/about/`}>About</Link>
+    </div>
     {children}
   </div>
   

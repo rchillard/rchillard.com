@@ -2,7 +2,6 @@
 title: "Need More Leather"
 date: "2018-11-15"
 tags: ['learn']
-excerpt: "We're going to need more leather for this bootstrap effort!"
 ---
 
 Learn, Build, Teach is my personal blog to embrace *learning in public* as inspired by [Swyx](https://twitter.com/swyx).  The idea behind learning in public is that you learn more effectively by digesting concepts and explaining them in your own words.  This blog is a way for me to digest my own learning.  

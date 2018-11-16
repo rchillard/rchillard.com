@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 
-const AllTagsTemplate = ({data}) => {
+const SingleTagTemplate = ({data}) => {
     return (
         <div>
             <div>
@@ -11,4 +11,4 @@ const AllTagsTemplate = ({data}) => {
     )
 }
 
-export default AllTagsTemplate
+export default SingleTagTemplate

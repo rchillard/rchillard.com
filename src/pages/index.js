@@ -32,9 +32,10 @@ export default ({ data }) => {
                 <span
                   className={css`
                     color: #bbb;
+                    float: right
                   `}
                 >
-                  — {node.frontmatter.date}
+                  {node.frontmatter.date}
                 </span>
               </h3>
             </Link>
