@@ -8,6 +8,7 @@ Learn, Build, Teach is my personal blog to embrace *learning in public* as inspi
 
 That's right: *you're in my brain's stomach!*  :stuck_out_tongue_closed_eyes: Welcome. :smiling_imp:
 
+## All the Tools++
 This is my first post, and it has been such a large bootstrapping effort that I think we're going to need more leather.  Seriously, the digital equivalent of this just happened:
 
 ![Set of leather working tools](leather-tools.jpg "Need More Leather")
@@ -29,7 +30,7 @@ Why is this such a big problem for me?
 ![Tyrannosaurus Rex](t-rex.jpg "Tyrannosaurus Rex")
 Fausto García via [Unsplash](https://unsplash.com/photos/hYKG311mff8)
 
-I'm a dinosaur.  
+## I'm a dinosaur.  
 
 I learned HTML and CSS in the 90's, when Notepad was the weapon of choice.  I was shocked to *recently* hear about the demise of the **bold** tag.  I can't even conceive of a world where dogs (markup/HTML) and cats (logic/JavaScript) live in the same file, *in natural harmony*.
 
