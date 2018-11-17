@@ -19,7 +19,7 @@ export default ({ data, pageContext }) => {
         <p className={css`color: gray;`}> { post.timeToRead } minute read</p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <div className={css`text-align: center`}>
-          { prev && <Link className={css`display: inline; margin-right: 1em`} to={prev}>Previous</Link> } |
+          { prev && <Link className={css`display: inline; margin-right: 1em`} to={prev}>Previous</Link> }
           { next && <Link className={css`display: inline; margin-left: 1em`} to={next}>Next Post</Link> } 
         </div>
         <div className={css`margin-top: 2em;`}>

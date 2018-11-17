@@ -6,7 +6,7 @@ tags: ['learn']
 
 I said yesterday that I was going to need more leather for this effort.  Here's the good news: I found a [tanner](https://en.wikipedia.org/wiki/Tanning_(leather)).  This tanner's name is the amazing Gatsby plugin system.  I know you were probably wondering: how is this basic starter blog doing so much cool stuff?  
 
-The magic of Gatsby plugins!
+The magic of Gatsby plugins!  ![Gatsby icon](favicon.ico "Gatsby icon")
 
 Although I'm a neophyte, the Gatsby plugin system feels very robust from the get go.  Here's a set of improvements that I've implemented, which I would recommend checking out for your own projects:
 * Font themeing support with [gatsby-plugin-typography](https://www.gatsbyjs.org/packages/gatsby-plugin-typography/)
