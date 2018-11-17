@@ -11,6 +11,8 @@ module.exports = {
         },
       },
       `gatsby-plugin-emotion`,
+      `gatsby-remark-copy-linked-files`,
+      `gatsby-transformer-sharp`,
       `gatsby-plugin-sharp`,
       {
         resolve: `gatsby-transformer-remark`,
@@ -21,14 +23,7 @@ module.exports = {
               options: {
                 maxWidth: 784,
               }
-            }
-          ]
-        }
-      },
-      {
-        resolve: `gatsby-transformer-remark`,
-        options: {
-          plugins: [
+            },
             {
               resolve: `gatsby-remark-prismjs`,
               options: {
