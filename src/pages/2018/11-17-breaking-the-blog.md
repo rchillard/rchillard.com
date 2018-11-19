@@ -20,10 +20,9 @@ export const query = graphql`
 `
 ```
 This is the original GraphQL query that I was using on the template for my blog posts.  I proudly displayed it two days ago in my first ever post, [Need More Leather](/11-15-need-more-leather/).  There's one serious problem with it though.  It's not setup as a template, meaning it cannot support more than one blog post.  Every time this template is used, this query would only pull data for the 1st blog post. 
-
 :anguished:
 
-That's a serious bug :ant:.
+That's a serious bug. :ant:
 
 As it turns out, a slight modification to the query brings back the magic: :grinning:
 
