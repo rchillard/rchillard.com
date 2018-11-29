@@ -3,10 +3,6 @@ My [personal blog](https://rchillard.com/) which I use primarily to *learn in pu
 
 ## My Areas of Interest
 Here are the things that you might see on my blog:
-* Web Development
-    * Node
-    * React
-* Infrastructure
-    * Linux
-    * Docker
-* DevOps
+* Web Development (Node, React, Lots of JavaScript)
+* Infrastructure (Linux, Docker, Cloud Work, Serverless)
+* Agile and DevOps (Thoughts on Teams, Human Psychology)
