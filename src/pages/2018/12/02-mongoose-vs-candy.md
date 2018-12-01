@@ -1,7 +1,7 @@
 ---
-title: "Mongo like Candy"
-date: "2018-12-01"
-tags: ['learn','databases','non-relational', 'mongodb']
+title: "Mongoose vs. Candy"
+date: "2018-12-02"
+tags: ['learn','databases','non-relational','mongodb','mongoose']
 ---
 
 ## Mongoose
