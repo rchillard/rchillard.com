@@ -13,4 +13,4 @@ Of the two major categories of databases, I plan on learning a little bit about 
 | Column   | Cassandra | Designed for retrieval of large amounts of a particular column (attribute), benefiting analytic applications |
 | Graph          | Neo4J     | Used for interconnected data and strong at traversing connections between nodes |
 
-Each of these types should be used for different purposes, but the most common all around utility type is a document-based database, because it has a fluid schema.  The most popular in this category is [MongoDB](https://www.mongodb.com/).
+Each of these types should be used for different purposes, but the most common all around utility type is a document-based database, because it has a fluid schema.  The most popular in this category is [MongoDB](https://www.mongodb.com/).  Checkout my next post, Mongo like Candy, for a deeper dive.  I warned you about the throwbacks!

@@ -1,5 +1,5 @@
 ---
-title: "Mongo like Candy"
-date: "2018-12-01"
+title: "VARiety in JavaScript"
+date: "2018-12-04"
 tags: ['learn','javascript','es2015']
 ---

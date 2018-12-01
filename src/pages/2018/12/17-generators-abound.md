@@ -1,5 +1,5 @@
 ---
-title: "Mongo like Candy"
-date: "2018-12-01"
+title: "Generators Abound"
+date: "2018-12-17"
 tags: ['learn','javascript','es2015']
 ---
