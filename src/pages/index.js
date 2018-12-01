@@ -1,12 +1,12 @@
-import React from "react"
-import { css } from "react-emotion"
-import { Link, graphql } from "gatsby"
-import { rhythm } from "../utils/typography"
+import React from "react";
+import { css } from "react-emotion";
+import { Link, graphql } from "gatsby";
+import { rhythm } from "../utils/typography";
 
-import Layout from "../components/layout"
+import Layout from "../components/layout";
 
 export default ({ data }) => {
-  console.log(data)
+  console.log(data);
   return (
     <Layout>
       <div>
@@ -21,32 +21,36 @@ export default ({ data }) => {
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
-            <Link className={css`text-decoration: none;`} to={node.fields.slug}>
+            <Link
+              className={css`
+                text-decoration: none;
+              `}
+              to={node.fields.slug}
+            >
               <h3
                 className={css`
                   margin-bottom: ${rhythm(1 / 4)};
                 `}
               >
                 {node.frontmatter.title}{" "}
-            
                 <span
                   className={css`
                     color: #bbb;
-                    float: right
+                    float: right;
                   `}
                 >
                   {node.frontmatter.date}
                 </span>
               </h3>
             </Link>
-          
+
             <p>{node.excerpt}</p>
           </div>
         ))}
       </div>
     </Layout>
-  )
-}
+  );
+};
 
 export const query = graphql`
   query {
@@ -60,11 +64,11 @@ export const query = graphql`
           }
           frontmatter {
             title
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "MM/DD/YY")
           }
           excerpt(pruneLength: 200)
         }
       }
     }
   }
-`
+`;
