@@ -49,4 +49,4 @@ now!
 `
 ```
 
-Come and join me on my ES2015 journey to become a code-Alpha and conquer this brave new JavaScript.
+Come and join me on my ES2015 journey to become a coding Alpha and conquer this brave new JavaScript.
