@@ -51,6 +51,11 @@ myMap.forEach(x => console.log(x))
 // You can also use the Symbol.iterator or for...of loop
 myMap.values() // MapIterator of values
 myMap.keys() // MapIterator of keys
+
+// Example of a for...of loop to traverse values
+for (var value of myMap.values()) {
+    console.log(value)
+}
 ```
 
 ## Why use Maps?
