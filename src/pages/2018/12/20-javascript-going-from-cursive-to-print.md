@@ -1,6 +1,6 @@
 ---
 title: "JavaScript Going from Cursive to Print"
-date: "2018-12-19"
+date: "2018-12-20"
 tags: ['learn','javascript','es2015']
 ---
 

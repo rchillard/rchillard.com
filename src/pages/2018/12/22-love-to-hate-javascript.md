@@ -9,7 +9,7 @@ After a half a month of joyful posts about JavaScript's ES2015 (also called ES6)
 ## .map on Arrays
 The map() method creates a new array with the results of calling a function for every array element.  Wait, so like a For loop?  That's right!  Finally, a replacement for the onerous For loop. 
 
-:pray: Bless you JavaScript, each and every one of you!  :gift_heart:
+:pray: Bless you JavaScript, each and every new version of you!  :gift_heart:
 
 Here's what that looks like in practice:
 ```javascript
