@@ -66,3 +66,45 @@ var dog = {
 }
 dog.dogOwner // "RCH!"
 ```
+
+## Object.assign
+Allows you to create copies of objects without the same reference
+
+```javascript
+var favoritePerson = {name: "Anakin"}
+var bestFriend = favoritePerson;
+
+bestFriend.name = "Vader"
+favoritePerson.name // "Vader"
+// JavaScript assigns bestFriend = as a reference to favoritePerson
+
+// Now, with new villain powers of ES2015, we can really copy objects!
+var favoritePerson = {name: "Anakin"}
+var bestFriend = Object.assign({},favoritePerson);
+
+bestFriend.name = "Vader"
+favoritePerson.name // "Anakin"
+```
+
+Objects inside of the object being copied still have a reference to the original object!  Even though Anakin became Vader, references to his children still remain the same, so there isn't a deep clone.
+```javascript
+var innocentJedi = {name: "Anakin", children: ["Luke", "Leia"]}
+var evilSithLord = Object.assign({}, innocentJedi);
+
+evilSithLord.children.push("The Empire")
+
+innocentJedi.children // ["Luke", "Leia", "The Empire"]
+```
+But that doesn't make any sense, because Anakin was just a young, innocent Jedi!  Hence, if you want to make a deep clone, you'll have to write your own method or use a library.
+
+## Array.from
+Enables you to convert other data types into arrays.
+```javascript
+// Convert array-like-objects into arrays
+var divs = document.getElementsByTagName("div")
+var converted = Array.from(divs)
+
+// Convert different types of objects into arrays
+var firstSet = new Set([1,2,3,4,3,2,1]) // {1,2,3,4}
+var arrayFromSet = Array.from(firstSet) // [1,2,3,4]
+```
