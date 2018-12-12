@@ -4,8 +4,9 @@ date: "2018-12-05"
 tags: ['learn','javascript','es2015']
 ---
 
-## Arrow Functions
+It's 1996.  John Travolta and Christian Slater are at the height of their powers.  What's better than a cheesy action flick?  Okay, this post isn't about [Broken Arrow](https://www.imdb.com/title/tt0115759/)... it's another post about JavaScript!
 
+## Arrow Functions
 The old school of the old school (how we used to define functions back in the day):
 ```javascript
 function add(a, b) {

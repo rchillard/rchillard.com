@@ -4,7 +4,9 @@ date: "2018-12-14"
 tags: ['learn','javascript','es2015']
 ---
 
-Refactoring the old constructors from ES5.
+Refactoring the old constructors from ES5.  This kind of feels like how the Transformers of my childhood started (those beloved cartoons defending Earth!) vs. the new Michael Bay action-movie Transformers.  (I attended React Rally in 2018 and saw an awesome presentation by [Shirley Wu](http://sxywu.com/) comparing box offices hits and their metascores... you might guess which scored the lowest :grin:)
+
+Okay, so we need to add a function to a 'class'.  How did we used to do that?
 
 ```javascript
 function Person(title, name) {

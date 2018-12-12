@@ -4,6 +4,7 @@ date: "2018-12-12"
 tags: ['learn','javascript','es2015']
 ---
 
+Let's have some class here, okay?  No, I mean now that we have classes in JavaScript, let's talk about how great it is to have a shorthand for both instance methods and class methods.  After all, this is the new JavaScript.
 
 ```javascript
 // constructor function in old JavaScript

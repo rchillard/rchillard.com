@@ -17,6 +17,7 @@ function DarkLord(title, name) {
 var voldemort = new DarkLord('Lord', 'Voldemort');
 ```
 
+The new hotness:
 ```javascript
 // class declaration in ES2015
 class DarkLord {
