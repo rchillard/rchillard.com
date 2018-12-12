@@ -5,7 +5,9 @@ tags: ['learn','javascript','es2017']
 ---
 
 ## Async
-Async functions are a special type of function that returns a Promise.  They've been designed to make Promises easier to work with.  Imagine they're kind of like all the new String methods, except since Promises are so new, they're coming about in ES2017, instead of ES2015.  I think they're a sign of the language's new speed of evolution.
+Async functions are a special type of function that returns a Promise.  They've been designed to make Promises easier to work with.  Imagine they're kind of like all the new String methods, except since Promises are so new, they're coming about in ES2017, instead of ES2015.
+
+I think they're a sign of the language's new speed of evolution.
 
 Here's an example:
 ```javascript
@@ -198,3 +200,5 @@ destroyShips(9,10,11)
 // {name: "Y-wing", model: "BTL Y-wing", manufacturer: "Koensayr Manufacturing", cost_in_credits: "134999", length: "14", …}
 ```
 That happened in maybe 1-2 seconds?  That was awesome!
+
+The nice part about this kind of pattern is that even though the code is async, it's still easy to read.
