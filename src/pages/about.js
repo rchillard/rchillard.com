@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
+import merlin from "./merlin-facing-crocodile.jpg";
 
 export default ({ data }) => (
   <Layout>
@@ -25,7 +26,7 @@ export default ({ data }) => (
       fundamentals of programming and networking a long, long time ago, when the
       internet was new. Since then, I have spent most of my professional career
       in the service and support of software development teams, but I keep
-      itching to get back to the hands-on fun of coding.
+      itching to get back to the hands-on fun of web development.
     </p>
     <p>
       <strong>I love software, because I believe it's modern day magic.</strong>
@@ -35,16 +36,22 @@ export default ({ data }) => (
       to dive back in, I've found that modern web development can feel like
       this:
     </p>
-    <img src="merlin-facing-crocodile.jpg" alt="Merlin facing Crocodile" />
+    <img
+      src={merlin}
+      alt="Merlin facing Crocodile"
+      style={{ marginBottom: "0" }}
+    />
+    <p style={{ textAlign: "right" }}>The Sword in the Stone (1963)</p>
     <p>
-      In short, even though I have worked in and alongside software development
-      teams for years, I feel like a dinosaur in the world of web development
-      today, and this blog is here to help me shake off that rust, learn modern
-      practices, and get back into the magic of casting spells.
+      In short, even though I have worked in tech for years, I feel like a
+      dinosaur in the world of web development today, and this blog is here to
+      help me shake off that rust, learn modern practices, and get back into the
+      magic of casting spells.
     </p>
     <p>
-      Follow me on my quest to find that magic wand by reading my first post,{" "}
-      <Link to={`/2018/11/11-15-need-more-leather/`}>Need More Leather</Link>.
+      Follow me on my quest to find my magic wand again by reading my first
+      post, <Link to={`/2018/11/15-need-more-leather/`}>Need More Leather</Link>
+      .
     </p>
   </Layout>
 );
