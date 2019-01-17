@@ -3,12 +3,15 @@ import { css } from "react-emotion";
 import { Link, graphql } from "gatsby";
 import { rhythm } from "../utils/typography";
 
-import Layout from "../components/layout";
+import Header from  "../components/header.js"
+import Footer from  "../components/footer.js"
+import Layout from "../components/layout.js";
 
 export default ({ data }) => {
   console.log(data);
   return (
     <Layout>
+      <Header />
       <div>
         <h1
           className={css`
@@ -48,6 +51,7 @@ export default ({ data }) => {
           </div>
         ))}
       </div>
+      <Footer />
     </Layout>
   );
 };
