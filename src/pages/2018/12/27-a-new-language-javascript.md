@@ -1,7 +1,7 @@
 ---
 title: "A New Language: JavaScript"
 date: "2018-12-27"
-tags: ['learn','javascript','es2015','es2016','es2017']
+tags: ['learn','javascript']
 ---
 
 I was listening to a podcast yesterday, and I had an epiphany while listening:

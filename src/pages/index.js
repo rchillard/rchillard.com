@@ -8,7 +8,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>
-        <h2>Hello, my name's Ryan. Welcome!</h2>
+        <h1>Hello, my name's Ryan. Welcome!</h1>
         <p>
           I'm a <strong>servant-leader</strong> and{" "}
           <strong>shortstack developer</strong>. I write about leading
@@ -17,7 +17,7 @@ export default ({ data }) => {
         </p>
       </div>
       <div>
-        <h2>Articles and Essays</h2>
+        <h2>Latest Articles, Essays and Posts</h2>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link

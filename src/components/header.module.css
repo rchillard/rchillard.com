@@ -30,3 +30,17 @@ a {
 .icon {
   width: 1rem;
 }
+
+@media screen and (max-width: 600px) {
+  .logo {
+    height: 4rem;
+    width: 4rem;
+  }
+  .header ul {
+    margin-top: .5rem;
+    padding: .5rem;
+  }
+  .header li {
+    margin: .5rem;
+  }
+}

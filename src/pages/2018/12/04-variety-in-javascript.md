@@ -1,5 +1,5 @@
 ---
-title: "VAR-iety in JavaScript"
+title: "More VAR-iety: var, const, let"
 date: "2018-12-04"
 tags: ['learn','javascript','es2015']
 ---
