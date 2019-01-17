@@ -28,6 +28,7 @@ a {
 }
 
 .icon {
+  vertical-align: middle;
   width: 1rem;
 }
 
@@ -43,5 +44,41 @@ a {
   }
   .header li {
     margin: .5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    height: 3rem;
+    width: 3rem;
+  }
+  .header ul {
+    font-size: .6rem;
+    margin-top: .5rem;
+    padding: .5rem;
+  }
+  .header li {
+    margin: .5rem;
+  }
+  .icon {
+    width: .75rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .logo {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .header ul {
+    font-size: .6rem;
+    margin-top: .5rem;
+    padding: .5rem;
+  }
+  .header li {
+    margin: .5rem;
+  }
+  .icon {
+    width: .5rem;
   }
 }
