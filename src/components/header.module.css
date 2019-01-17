@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+}
+.header {
+  margin: 0 auto;
+  padding-top: 1rem;
+  max-width: 900px;
+}
+
+.header ul {
+  align-items: center;
+  background: white;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  float: right;
+}
+
+.header li {
+  display: inline;
+  margin: 1rem;
+  /* padding: 1rem; */
+}
+
+.logo {
+  height: 6rem;
+  width: 6rem;
+}
+
+.icon {
+  width: 1rem;
+}

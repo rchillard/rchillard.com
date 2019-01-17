@@ -8,16 +8,10 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>
-        <h2>Hello, my name's Ryan. Welcome!</h2>
-        <p>
-          I'm a <strong>servant-leader</strong> and{" "}
-          <strong>shortstack developer</strong>. I write about leading
-          development teams and coding software. I'm also a neophyte designer
-          and aspiring open sourcerer. I really like rockets and space!
-        </p>
-      </div>
-      <div>
-        <h2>Articles and Essays</h2>
+        <h2>
+          All {data.allMarkdownRemark.totalCount} articles and essays in
+          chronological order
+        </h2>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
@@ -48,17 +42,13 @@ export default ({ data }) => {
           </div>
         ))}
       </div>
-      <Link to={"/all-posts/"}>Read all posts</Link>
     </Layout>
   );
 };
 
 export const query = graphql`
   query {
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      limit: 10
-    ) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }) {
       totalCount
       edges {
         node {

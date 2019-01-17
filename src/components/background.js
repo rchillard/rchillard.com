@@ -1,25 +1,32 @@
-import React from "react"
-import styles from "./background.module.css"
+import React, { Component } from "react";
+import styles from "./background.module.css";
 
-const BackgroundColor = props => (
-    var hour = new Date().getHours()
+class Background extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isToggleOn: true,
+      timeOfDay: "day"
+    };
+    this.handleClick = this.handleClick.bind(this);
+  }
 
-    <div className={styles.dawn}>
-        <p>So what?</p>
-    </div>
-    if (hour >= 5 && hour <= 7) {
-        BackgroundColor.classList.add('dawn')
-    } else if (hour > 7 && hour < 18) {
-        bg.classList.add('day')
-    } else if (hour >= 18 && hour <= 20) {
-        bg.classList.add('dusk')
-    } else {
-        bg.classList.add('night')
-    }
-  )
+  handleClick() {
+    this.setState(prevState => ({
+      isToggleOn: !prevState.isToggleOn
+    }));
+  }
 
-export default ({ children }) => (
-    <BackgroundColor>
+  render() {
+    return (
+      <div className={styles.day}>
+        {/* <button onClick={this.handleClick}>
+          {this.state.isToggleOn ? "ON" : "OFF"}
+        </button> */}
+        {this.props.children}
+      </div>
+    );
+  }
+}
 
-    </BackgroundColor>
-)
+export default Background;
