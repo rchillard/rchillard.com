@@ -10,6 +10,8 @@ module.exports = {
       options: {
         name: `src`,
         path: `${__dirname}/src/pages`
+        // name: `images`,
+        // path: `${__dirname}/src/images`
       }
     },
     `gatsby-plugin-emotion`,

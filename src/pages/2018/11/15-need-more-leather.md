@@ -31,7 +31,7 @@ I have been through a number of different React tutorials, including an all day 
 Why is this such a big problem for me?
 
 ![Tyrannosaurus Rex](t-rex.jpg "Tyrannosaurus Rex")
-Fausto García via [Unsplash](https://unsplash.com/photos/hYKG311mff8)
+Image by Fausto García via [Unsplash](https://unsplash.com/photos/hYKG311mff8)
 
 ## I'm a Dinosaur 
 
