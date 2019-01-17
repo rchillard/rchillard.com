@@ -1,5 +1,5 @@
 ---
-title: "The Brave New JavaScript"
+title: "The Brave New JavaScript: Better Strings"
 date: "2018-12-03"
 tags: ['learn','javascript','es2015']
 ---
@@ -49,4 +49,24 @@ now!
 `
 ```
 
+## includes
+Returns 'true' if a value is found inside of a String, which is easier than using indexOf
+```javascript
+// Old way
+"batman".indexOf("man") > -1 // true
+// New way
+"batman".includes("man") // true
+```
+
 Come and join me on my ES2015 journey to become a coding Alpha and conquer this brave new JavaScript.
+
+Here's a quick additional freebie on numbers:
+## Number.isFinite
+This is a short cut way to tell if a number is Not a Number (NaN):
+```javascript
+function checkIfNumber(val) {
+    if (Number.isFinite(val)) {
+        return "It's a number!"
+    }
+}
+```

@@ -1,5 +1,5 @@
 ---
-title: "ES2016"
+title: "ES2016: Exponents and Includes"
 date: "2018-12-23"
 tags: ['learn','javascript','es2016']
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Object Spread and Rest"
+title: "ES2017: Object Spread and Rest"
 date: "2018-12-26"
 tags: ['learn','javascript','es2017']
 ---

@@ -1,9 +1,10 @@
 ---
-title: "Keyword 'this' in JavaScript"
+title: "Keywords 'this' and 'new' in JavaScript"
 date: "2018-11-25"
 tags: ['learn','javascript']
 ---
 
+## Keyword 'this'
 The 'this' keyword represents a core part of object oriented programming in JavaScript.  You have to understand how 'this' operates in different contexts and its rules to really maximize your use of the language.  Rules of 'this':
 1. Applies to the nearest parent object
 2. 'This' can be set as one of these:
@@ -28,3 +29,14 @@ Here's a basic chart of those prototype methods that operate on 'this':
 - 'Bind' can be used to set the context of 'this' in asynchronous code
 
 Greater minds than mine have explained some of these concepts in much greater detail, so I will [refer you to them](https://tylermcginnis.com/this-keyword-call-apply-bind-javascript/) for further reading.
+
+## Keyword 'new'
+Much like the keyword 'this' above, the keyword 'new' is essential to object oriented programming in JavaScript.  
+
+What does 'new' actually do though?  This post breaks it down simply:
+1. Creates an empty object
+2. Sets 'this' = the empty object
+3. Adds an instruction to return this to the end of the function that follows it
+4. Adds a "__proto__" property to the empty object which links to constructor function
+
+That's it!  Keeping this in mind will really help you understand what context you're in when using the keyword 'this', which is why these two posts were done back-to-back.  'This' and 'new' are inseparable parts of JavaScript.

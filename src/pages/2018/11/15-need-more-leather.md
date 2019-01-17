@@ -4,7 +4,7 @@ date: "2018-11-15"
 tags: ['learn']
 ---
 
-Learn, Build, Teach is my personal blog to embrace *learning in public* as inspired by [Swyx](https://twitter.com/swyx).  The idea behind learning in public is that you learn more effectively by digesting concepts and explaining them in your own words.  This blog is a way for me to digest my own learning.  
+This is my personal blog to embrace *learning in public* as inspired by [Swyx](https://twitter.com/swyx).  It's also the final step in a virtuous cycle of learning, building, and teaching.  The idea behind learning in public is that you learn more effectively by digesting concepts and explaining them in your own words.  This blog is a way for me to digest my own learning and teach it.
 
 That's right: *you're in my brain's stomach!*  :stuck_out_tongue_closed_eyes: 
 
@@ -76,7 +76,7 @@ export const query = graphql`
 `
 ```
 
-This is the template powering this page, which I implemented myself (yay, go me!).  Now I'm still learning and I want to break down how it works in a future post.  Before I do that though, here's what Learn, Build, Teach is all about:
+This is the template powering this page, which I implemented myself (yay, go me!).  Now I'm still learning and I want to break down how it works in a future post.  Before I do that though, here's what this blog is all about:
 * Tracing my personal journey with code
 * Capturing important concepts I've learned along the way
 * Showcasing the projects I've built that solidify my understanding

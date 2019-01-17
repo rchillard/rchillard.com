@@ -1,5 +1,5 @@
 ---
-title: "Async Your Battleship"
+title: "ES2017: Async Your Battleship"
 date: "2018-12-25"
 tags: ['learn','javascript','es2017']
 ---
