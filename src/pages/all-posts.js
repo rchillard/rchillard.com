@@ -9,8 +9,7 @@ export default ({ data }) => {
     <Layout>
       <div>
         <h2>
-          All {data.allMarkdownRemark.totalCount} articles, essays, and posts in
-          chronological order
+          All {data.allMarkdownRemark.totalCount} articles, essays, and posts
         </h2>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
@@ -48,7 +47,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: ASC }) {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       totalCount
       edges {
         node {
