@@ -1,7 +1,8 @@
 ---
 title: "Found a Tanner"
 date: "2018-11-16"
-tags: ['learn']
+category: "development"
+tags: ['gatsby']
 ---
 
 I said yesterday that I was going to need more leather for this effort.  Here's the good news: I found a [tanner](https://en.wikipedia.org/wiki/Tanning_(leather)).  This tanner's name is the amazing Gatsby plugin system.  I know you were probably wondering: how is this basic starter blog doing so much cool stuff?  

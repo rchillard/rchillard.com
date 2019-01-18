@@ -1,7 +1,8 @@
 ---
 title: "Mongoose vs. Candy"
 date: "2018-12-02"
-tags: ['learn','databases','non-relational','mongodb','mongoose']
+category: "development"
+tags: ['databases','mongodb']
 ---
 
 [Mongoose](https://www.npmjs.com/package/mongoose) is an Object Data Mapper (ODM) which makes it easier for a NodeJS application to interact with MongoDB.  It provides standard functions that allow you to model data through schemas.  

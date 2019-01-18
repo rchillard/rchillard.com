@@ -1,7 +1,8 @@
 ---
 title: "Anatomy of an HTML Form"
 date: "2018-11-20"
-tags: ['learn','html']
+category: "development"
+tags: ['html']
 ---
 
 An HTML form is a powerful tool that allows you to capture data and transmit it.  Here's a basic one:

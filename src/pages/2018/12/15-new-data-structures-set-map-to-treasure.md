@@ -1,7 +1,8 @@
 ---
 title: "New Data Structures: Set Map to Treasure"
 date: "2018-12-15"
-tags: ['learn','javascript','es2015']
+category: "development"
+tags: ['javascript']
 ---
 
 Despite the title, I'm not a pirate on the high seas here.  What is a Map?

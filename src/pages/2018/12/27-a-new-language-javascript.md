@@ -1,7 +1,8 @@
 ---
 title: "A New Language: JavaScript"
 date: "2018-12-27"
-tags: ['learn','javascript']
+category: "development"
+tags: ['javascript']
 ---
 
 I was listening to a podcast yesterday, and I had an epiphany while listening:

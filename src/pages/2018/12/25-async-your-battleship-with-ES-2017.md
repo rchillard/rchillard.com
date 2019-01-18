@@ -1,7 +1,8 @@
 ---
 title: "Async Your Battleship with ES2017"
 date: "2018-12-25"
-tags: ['learn','javascript','es2017']
+category: "development"
+tags: ['javascript']
 ---
 
 Async functions are a special type of function that returns a Promise.  They've been designed to make Promises easier to work with.  Imagine they're kind of like all the new String methods, except since Promises are so new, they're coming about in ES2017, instead of ES2015.

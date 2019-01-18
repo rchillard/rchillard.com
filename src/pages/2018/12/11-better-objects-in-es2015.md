@@ -1,7 +1,8 @@
 ---
 title: "Better Object Oriented Programming in ES2015"
 date: "2018-12-11"
-tags: ['learn','javascript','es2015']
+category: "development"
+tags: ['javascript']
 ---
 
 It's starting to feel like JavaScript wants to really support Object Oriented Programming.  The addition of the keyword 'class' in ES2015 makes me think of my beloved old Java.

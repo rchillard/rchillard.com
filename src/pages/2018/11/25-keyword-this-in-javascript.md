@@ -1,7 +1,8 @@
 ---
 title: "Keywords 'this' and 'new' in JavaScript"
 date: "2018-11-25"
-tags: ['learn','javascript']
+category: "development"
+tags: ['javascript']
 ---
 
 The 'this' keyword represents a core part of object oriented programming in JavaScript.  You have to understand how 'this' operates in different contexts and its rules to really maximize your use of the language.  Rules of 'this':

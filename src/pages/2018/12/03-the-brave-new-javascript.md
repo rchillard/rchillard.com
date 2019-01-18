@@ -1,7 +1,8 @@
 ---
 title: "The Brave New JavaScript: Better Strings"
 date: "2018-12-03"
-tags: ['learn','javascript','es2015']
+category: "development"
+tags: ['javascript']
 ---
 
 Wow, I'm only a few days into learning how much JavaScript changed in 2015 with the release of ES2015, but I am already excited.  

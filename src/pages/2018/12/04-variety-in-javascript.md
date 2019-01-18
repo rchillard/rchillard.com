@@ -1,7 +1,8 @@
 ---
 title: "More VAR-iety: var, const, let"
 date: "2018-12-04"
-tags: ['learn','javascript','es2015']
+category: "development"
+tags: ['javascript']
 ---
 
 Excusing the horrific pun, it's great to see JavaScript support more options when it comes to variable declaration.  Let's go over them together and then it'll be easier for me to remember the nuances of each later on.

@@ -9,7 +9,7 @@ export default ({ data }) => {
     <Layout>
       <div>
         <h2>
-          All {data.allMarkdownRemark.totalCount} articles and essays in
+          All {data.allMarkdownRemark.totalCount} articles, essays, and posts in
           chronological order
         </h2>
         {data.allMarkdownRemark.edges.map(({ node }) => (

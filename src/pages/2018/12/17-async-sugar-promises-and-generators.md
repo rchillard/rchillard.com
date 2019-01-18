@@ -1,7 +1,8 @@
 ---
 title: "Async Sugar: Promises and Generators"
 date: "2018-12-17"
-tags: ['learn','javascript','es2015']
+category: "development"
+tags: ['javascript']
 ---
 
 Promises from an instructor on Mr. Steele's Advanced Developer Bootcamp course (a little paraphrased):

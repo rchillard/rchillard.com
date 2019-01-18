@@ -1,7 +1,8 @@
 ---
 title: "Prototypes in JavaScript"
 date: "2018-11-19"
-tags: ['learn','javascript']
+category: "development"
+tags: ['javascript']
 ---
 
 Prototypes in JavaScript feel natural to me, because I first learned Object Oriented Programming when Java was the next big thing.  I remember when the Java Virtual Machine and its promise of portability was all the rage.  Here's a sketch from my marker board breaking down how prototypes and constructors work:

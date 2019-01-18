@@ -1,7 +1,8 @@
 ---
 title: "Easier Arrays: Array.from, find, findIndex, For...of"
 date: "2018-12-07"
-tags: ['learn','javascript','es2015']
+category: "development"
+tags: ['javascript']
 ---
 
 Finally, they've made Arrays easy to work with in ES2015.  I can't believe I'm saying this.  It's great!  I kind of feel like ES2015 represents years of pent up anger over developers having to manually traverse Arrays using For loops.  Check these changes out:

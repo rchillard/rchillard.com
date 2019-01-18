@@ -1,7 +1,8 @@
 ---
 title: "ES2016: Exponents and Includes"
 date: "2018-12-23"
-tags: ['learn','javascript','es2016']
+category: "development"
+tags: ['javascript']
 ---
 
 I'm starting to feel like a broken record, but once again, JavaScript ES2016 jumps into 2009 with a few nifty features!  (I kid, I kid, these updates are great for the language and although small in the grand scheme of the other things, they're important to recognize.)

@@ -1,7 +1,8 @@
 ---
 title: "Power over Distraction"
 date: "2019-01-18"
-tags: ['learn']
+category: "development"
+tags: ['productivity']
 ---
 
 I used to have a really big problem.  I used to be a terrible procrastinator.  I am way too good at distracting myself from what I should be doing.  I'm changing that though, and I'm doing it by assuming power over my sources of distraction and adding a little *friction*.
@@ -36,12 +37,12 @@ As you can see above, the window is a lot cleaner!  Distractions are gone.  Here
 3. Installed [CaretTab](https://chrome.google.com/webstore/detail/carettab-new-tab-clock-an/cojpndognjdcakkimaloeealehpkljna?hl=en) to enhance my focus
 
 CaretTab is a browser extension that loads a custom default screen with all the tools I need for projects:
-- Amazon Web Services (AWS), infrastructure provider
-- Cloud9, my remote development environment
-- GitHub, where all my code is stored
-- Music to concentrate
-- Trello, my 'to do' list or work tracker
-- Udemy, my primary online learning tool
+- Amazon Web Services (AWS) for my cloud infrastructure
+- Cloud9 is my remote development environment
+- GitHub to store my code
+- Music to help me concentrate
+- Trello to track my 'to do' list
+- Udemy is my primary online learning tool
 
 From the options above, I have nothing that can distract me.  Literally, every link is for *focus*.
 

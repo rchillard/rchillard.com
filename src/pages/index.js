@@ -11,9 +11,9 @@ export default ({ data }) => {
         <h1>Hello, my name's Ryan. Welcome!</h1>
         <p>
           I'm a <strong>servant-leader</strong> and{" "}
-          <strong>shortstack developer</strong>. I write about leading
-          development teams and coding software. I'm also a neophyte designer
-          and aspiring open sourcerer. I really like rockets and space!
+          <strong>shortstack developer</strong>. I write about leading teams,
+          building infrastructure, and coding software. I'm also a neophyte
+          designer and aspiring open sourcerer. I really like rockets and space!
         </p>
       </div>
       <div>

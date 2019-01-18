@@ -1,7 +1,8 @@
 ---
 title: "Getting Some Closure on JavaScript"
 date: "2018-12-06"
-tags: ['learn','javascript','es2015']
+category: "development"
+tags: ['javascript']
 ---
 
 You hear developers in the JavaScript world talk about closure.  I always thought it was about getting over the demise of Netscape Navigator.  Boy was I wrong!  (Sorry, horrible joke... sorry not sorry Netscape)

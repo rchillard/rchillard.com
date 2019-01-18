@@ -1,7 +1,8 @@
 ---
 title: "Introduction to Databases"
 date: "2018-11-29"
-tags: ['learn','databases']
+category: "development"
+tags: ['databases']
 ---
 
 The time has come to crack open the old textbooks and dive back into databases.  Let's start with a very simple breakdown of the two main families or types of databases in the world: relational and non-relational.  I put together a small table that compares the two:

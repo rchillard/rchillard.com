@@ -1,7 +1,8 @@
 ---
 title: "Need More Leather"
 date: "2018-11-15"
-tags: ['learn']
+category: "development"
+tags: ['gatsby']
 ---
 
 This is my personal blog to embrace *learning in public* as inspired by [Swyx](https://twitter.com/swyx).  It's also the final step in a virtuous cycle of learning, building, and teaching.  The idea behind learning in public is that you learn more effectively by digesting concepts and explaining them in your own words.  This blog is a way for me to digest my own learning and teach it.

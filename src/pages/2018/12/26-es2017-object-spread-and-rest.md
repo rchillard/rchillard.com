@@ -1,7 +1,8 @@
 ---
 title: "ES2017: Object Spread and Rest"
 date: "2018-12-26"
-tags: ['learn','javascript','es2017']
+category: "development"
+tags: ['javascript']
 ---
 
 Once again, the speed of JavaScript evolution is apparent.  When you learn it all together, it's easier to see how an idea is being iterated upon.  In this case, the Rest and Spread operators we learned in ES2015 for dealing with arguments in functions and arrays are being adopted for similar uses, except for objects. 

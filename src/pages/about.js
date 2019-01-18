@@ -8,13 +8,14 @@ export default ({ data }) => (
     <h1>About {data.site.siteMetadata.title}</h1>
     <p>
       This is my personal blog to embrace learning in public as inspired by{" "}
-      <a href="https://twitter.com/swyx">Swyx</a>. The idea behind learning in
-      public is that you learn more effectively by digesting concepts and
-      explaining them in your own words. This blog is a way for me to digest my
-      own learning. It's here for future me, and it's how I plan on:
+      <a href="https://twitter.com/swyx">Shawn Wang</a>. The idea behind
+      learning in public is that you learn more effectively by digesting
+      concepts and explaining them in your own words. This blog is a way for me
+      to digest my own learning. It's here for future me, and it's how I plan
+      on:
     </p>
     <ul>
-      <li>Tracing my personal and professional journey with code</li>
+      <li>Tracing my personal and professional journeys</li>
       <li>
         Capturing important concepts and lessons that I've learned along the way
       </li>

@@ -1,7 +1,8 @@
 ---
 title: "RESTful Routing Reference"
 date: "2018-11-23"
-tags: ['learn','rest','api','reference']
+category: "development"
+tags: ['api']
 ---
 
 I wanted to take a second to capture a basic guide for myself on RESTful routing.  REST stands for Representational State Transfer and is essentially a design pattern for creating web services.  To future me, this table should help with any future REST API design:

@@ -1,7 +1,8 @@
 ---
-title: "ES2017: Pad Your JavaScript Scores"
+title: "Pad Your ES2017 JavaScript Scores"
 date: "2018-12-24"
-tags: ['learn','javascript','es2017']
+category: "development"
+tags: ['javascript']
 ---
 
 ES2017 brings new String methods for us, which honestly, feel a little weird.  I think they're mostly in response to the famous [leftpad incident](https://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/), whereby a disgruntled developer brought a shocking number of apps to their knees by removing an NPM package that thousands of projects depended upon.

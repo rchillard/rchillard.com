@@ -1,7 +1,8 @@
 ---
 title: "Breaking the Blog"
 date: "2018-11-17"
-tags: ['learn']
+category: "development"
+tags: ['gatsby']
 ---
 
 Well, that didn't take long.  Yesterday, I broke the blog.  I stumbled into [the long grass](https://youtu.be/Cr1MvzAr26E) without even knowing it.  However, I learned a very important lesson about this brave new component based world that we live in.  Here be my raptors:

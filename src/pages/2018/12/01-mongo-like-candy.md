@@ -1,7 +1,8 @@
 ---
 title: "Mongo like Candy"
 date: "2018-12-01"
-tags: ['learn','databases','non-relational', 'mongodb']
+category: "development"
+tags: ['databases','mongodb']
 ---
 
 [Mongo like candy](https://www.youtube.com/watch?v=P8ciVBQixpU), but MongoDB likes unstructured data.  I am diving into MongoDB.  Let's hope it doesn't blow up in my face like the infamous candygram.  As a refresher, MongoDB is a non-relation (NoSQL) database.  There are many types of these that were covered in a previous post, but this one is a document-based data store.

@@ -1,7 +1,8 @@
 ---
 title: "Power of the Marker Board"
 date: "2018-11-18"
-tags: ['learn']
+category: "development"
+tags: ['productivity']
 ---
 
 I have installed a marker board in my office, so I can start thinking outloud, in dry erase marker, literally on the walls.  I have found this incredibly helpful for tracking my learning.  

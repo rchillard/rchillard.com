@@ -1,7 +1,8 @@
 ---
 title: "Anatomy of an HTTP Request"
 date: "2018-11-22"
-tags: ['learn','http','reference']
+category: "development"
+tags: ['http']
 ---
 
 In order to understand how the web works, you have to understand the request-response cycle and how an HTTP request is structured.  This is another post for future me, as I know I'll need to refer back to this fundamental piece of information.

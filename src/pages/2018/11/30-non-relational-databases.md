@@ -1,7 +1,8 @@
 ---
 title: "Non-Relational Databases"
 date: "2018-11-30"
-tags: ['learn','databases','non-relational']
+category: "development"
+tags: ['databases']
 ---
 
 Of the two major categories of databases, I plan on learning a little bit about non-relational databases first.  Before I get into a specific one though, here's a table of the different *types* of non-relational databases:

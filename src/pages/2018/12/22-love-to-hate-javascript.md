@@ -1,7 +1,8 @@
 ---
 title: "Love to Hate JavaScript"
 date: "2018-12-22"
-tags: ['learn','javascript','es2015']
+category: "development"
+tags: ['javascript']
 ---
 
 After a half a month of joyful posts about JavaScript's ES2015 (also called ES6), I decided to get a little grinchy before the holiday.  Here's something that tripped me up for the last hour or so.  I wanted to share where not *quite* understanding the new notation completely can get you in trouble.

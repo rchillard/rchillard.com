@@ -1,7 +1,8 @@
 ---
 title: "Framework vs. Library"
 date: "2018-11-24"
-tags: ['learn','architecture','reference']
+category: "development"
+tags: ['architecture']
 ---
 
 For years, I have found myself using framework and library interchangeabley.  That's just wrong.  
