@@ -5,6 +5,7 @@ tags: ['learn','html']
 ---
 
 An HTML form is a powerful tool that allows you to capture data and transmit it.  Here's a basic one:
+
 ![Sketch of HTML form](anatomy-of-a-form-post.jpg "Diagram of sketch")
 
 And in clean HTML code, here's that same form that sends to an action "/createDog" endpoint (URL).  If this form were on rchillard.com, then it would send data to rchillard.com/createDog:

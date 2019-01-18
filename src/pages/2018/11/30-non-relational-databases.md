@@ -22,13 +22,12 @@ A document-based database like MongoDB is perfect for that.  That's why I'm lear
 Key-value databases are essentially a data dictionary in database format.  They can be deployed in cases where you have a simple data structure but need speed and efficiency.  The most common use case for this type of database is caching.
 
 ## Column
-I know column-based databases are used in big data and analytics, but I don't really understand the advantages they represent.  Frankly, I understand this type the least.  
-Future me will dig into this at a later date. :bowtie:
+I know column-based databases are used in big data and analytics, but I don't really understand the advantages they represent.  Frankly, I understand this type the least.  Future me will dig into this later. :bowtie:
 
 ## Graph
 Graph databases provide a permanent way to store the (wait for it!) graph type of data structure.  I know... you're as surprised as I am.  Seriously though, this type of database excels at storing things like maps of roads :globe_with_meridians:.  Future me will investigate further.  I've already got a sample project in mind.
 
 ## Conclusion
-Each of these types should be used for different purposes, but the most common all around utility type is a document-based database, because it has a fluid schema.  The most popular document database is [MongoDB](https://www.mongodb.com/).  I am learning it first, because the fluid schema and API available as part of a document-based database makes it easy to quickly prototype systems and applications.  As part of my learning process, I want to build as many things as possible, as quick as I can, and MongoDB enables me to do that.
+Each of these types should be used for different purposes, but the most common all around utility type is a document-based database, because it has a fluid schema.  The most popular document database is [MongoDB](https://www.mongodb.com/).  I am learning it first, because the dynamic nature and API available as part of a document-based database makes it easy to quickly prototype systems and applications.  As part of my learning process, I want to build as many things as possible, as quick as I can, and MongoDB enables me to do that.
 
 Checkout my next post, Mongo like Candy, for a deeper dive.  I warned you about the throwbacks!

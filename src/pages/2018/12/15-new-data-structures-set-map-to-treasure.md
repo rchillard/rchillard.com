@@ -1,10 +1,9 @@
 ---
-title: "Shiny New Data Structures: Maps and Sets"
+title: "New Data Structures: Set Map to Treasure"
 date: "2018-12-15"
 tags: ['learn','javascript','es2015']
 ---
 
-## Maps to New Treasure
 Despite the title, I'm not a pirate on the high seas here.  What is a Map?
 A Map is a collection of key-value pairs where the keys do not have to be strings.  In other languages, this is often called a hash map.
 

@@ -4,8 +4,7 @@ date: "2018-12-11"
 tags: ['learn','javascript','es2015']
 ---
 
-# Keyword 'class' in JavaScript
-It's starting to feel like JavaScript wants to really support Object Oriented Programming, but it's important to remember that it does not.  The addition of the keyword 'class' in ES2015 makes me think of my beloved old Java.
+It's starting to feel like JavaScript wants to really support Object Oriented Programming.  The addition of the keyword 'class' in ES2015 makes me think of my beloved old Java.
 
 ```javascript
 // constructor function in old JavaScript
@@ -31,6 +30,7 @@ class DarkLord {
 // creating a new instance of this object (it's the same)
 var voldemort = new DarkLord('Lord', 'Voldemort');
 ```
+There's a catch here though.  Classes are actually just special functions in JavaScript.  You can read more [about classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes) on the MDN documents, but it's important to remember that JavaScript does not *really* support Object Oriented Programming in the traditional sense.  The new class keyword is just a piece of syntactic sugar for JavaScript.
 
 # Instance and Class Methods
 Let's have some class here, okay?  No, I mean now that we have classes in JavaScript, let's talk about how great it is to have a shorthand for both instance methods and class methods.  After all, this is the new JavaScript.

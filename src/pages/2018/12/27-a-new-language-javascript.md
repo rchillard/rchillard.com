@@ -11,4 +11,4 @@ I was listening to a podcast yesterday, and I had an epiphany while listening:
 
 This is why I've struggled so much with learing the new JavaScript!  The version I learned in the late 90s was a *completely different language*.  So many expressive patterns and features have been added to JavaScript that it's literally a new language.
 
-Thank you Laurie Voss for laying it out so clearly and giving me this epiphany about my own personal journey with code.  I recommend you listen to this episode, because it's chock-a-block full of wisdom and insights.
+Thank you Laurie for your clear observations, providing me an epiphany on my own personal journey with code.  I recommend you listen to this episode, because it's full of wisdom and insight.

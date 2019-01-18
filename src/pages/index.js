@@ -17,7 +17,7 @@ export default ({ data }) => {
         </p>
       </div>
       <div>
-        <h2>Latest Articles, Essays and Posts</h2>
+        <h2>Latest Posts</h2>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link

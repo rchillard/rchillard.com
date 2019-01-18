@@ -4,7 +4,7 @@ date: "2018-12-26"
 tags: ['learn','javascript','es2017']
 ---
 
-Once again, the speed of JavaScript evolution is apparent.  When you learn it all together, it's easier to see how an idea is being iterated upon.  In this case, the Rest and Spread operators we learned in ES2015 for dealing with arguments in functions and arrays are being adopted for similar uses, except for the case of objects. 
+Once again, the speed of JavaScript evolution is apparent.  When you learn it all together, it's easier to see how an idea is being iterated upon.  In this case, the Rest and Spread operators we learned in ES2015 for dealing with arguments in functions and arrays are being adopted for similar uses, except for objects. 
 
 ## Object Spread
 The Object Spread operator allows you to *spread out* keys and values from one object to another.

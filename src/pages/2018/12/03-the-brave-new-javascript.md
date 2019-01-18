@@ -48,6 +48,7 @@ works
 now!
 `
 ```
+What other String functions have they *included* in ES2015?
 
 ## includes
 Returns 'true' if a value is found inside of a String, which is easier than using indexOf
@@ -58,7 +59,7 @@ Returns 'true' if a value is found inside of a String, which is easier than usin
 "batman".includes("man") // true
 ```
 
-Come and join me on my ES2015 journey to become a coding Alpha and conquer this brave new JavaScript.
+Come and join me on my journey to become a coding Alpha and conquer this brave new JavaScript.
 
 Here's a quick additional freebie on numbers:
 ## Number.isFinite

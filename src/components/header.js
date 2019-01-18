@@ -12,8 +12,8 @@ class Header extends Component {
           <img src={logo} alt="Ryan's Rocket Ship" className={style.logo} />
         </Link>
         <ul>
-          <li>Leadership</li>
-          <li>Development</li>
+          {/* <li>Leadership</li>
+          <li>Development</li> */}
           <li>
             <Link to={`/about/`}>About</Link>
           </li>

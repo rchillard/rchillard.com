@@ -4,8 +4,7 @@ date: "2018-12-17"
 tags: ['learn','javascript','es2015']
 ---
 
-# Promises, Promises
-From an instructor on Mr. Steele's Advanced Developer Bootcamp course (a little paraphrased):
+Promises from an instructor on Mr. Steele's Advanced Developer Bootcamp course (a little paraphrased):
 
 > A Promise is a one time guaranteed return of some future value.  The idea is that we do not know the value of an asynchronous operation, so we create a placeholder for that value.  When the value is figured out (or fulfilled), the promise is resolved/fulfilled or rejected.  This is a friendly way to refactor callback code.
 
@@ -31,11 +30,13 @@ makeFastFoodOrder().then(function(value) {
     console.log(error)
 })
 ```
+So what if you overcommit oftten and want to make many promises at once?
 
 ## Promise.all
-- Accepts an array of promises and resolves all of them or rejects once a single one of the promises has been first rejected (fails fast).
+- Accepts an array of promises and resolves all of them or rejects once a single one of the promises has been first rejected (fails fast)
 - If all of the passed-in promises fulfill, Promise.all is fulfilled with an array of the values from the passed-in promises, in the same order as the promises passed in
 - The promises don't resolve sequentially, but Promise.all waits for them
+
 ```javascript
 function getMovie(title){
     return $.getJSON(`https://omdbapi.com?t=${title}&apikey=thewdb`)
@@ -94,7 +95,7 @@ for(val of pauseAndReturnValues(3)){
 // 2
 ```
 
-You can also use generators to pause asynchronous code.  This is very powerful for handling async operations and Promises.
+Why use generators with promises though?  You can also use generators to pause asynchronous code.  This is very powerful for handling async operations and Promises.  Checkout this example from before:
 ```javascript
 function* getMovieData(movieName) {
     console.log('starting')

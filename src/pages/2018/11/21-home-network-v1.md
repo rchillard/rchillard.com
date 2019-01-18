@@ -1,7 +1,7 @@
 ---
 title: "Home Network v1.0"
 date: "2018-11-21"
-tags: ['project','networking','pfsense','raspberrypi']
+tags: ['infrastructure','networking','pfsense','raspberrypi']
 ---
 
 I have been hard at work re-learning some networking fundamentals, and as a result I decided to completely re-engineer my home network.  There are compelling privacy and security reasons for doing this, but for me it's also a great chance to learn some networking and system administration skills with a hands-on project.

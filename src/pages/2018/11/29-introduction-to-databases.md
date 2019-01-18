@@ -8,7 +8,7 @@ The time has come to crack open the old textbooks and dive back into databases. 
 
 | Relational           | Non-Relational |
 | -----------          | ----------- |
-| Ex: MySQL            | Ex: Mongo |
+| Ex: MySQL            | Ex: MongoDB |
 | Table-based          | Document-based |
 | Schema-based         | Schema-free |
 | Verticle scaling     | Horizontal scaling |
@@ -43,15 +43,13 @@ Here's a table breaking down ACID:
 | Isolation   | Enables concurrent execution of transactions, leaving database in the same state as if transactions were executed sequentially |
 | Durability  | Transactions remain committed even in the case of a system failure (e.g. a crash), which usually means stored in durable memory |
 
-### A Thought
+### A Thought :bulb:
 It's my opinion that most data in the world is actually relational, because most of the time we are modeling our digital systems off of our real physical world.  As a result, relational databases are much more common and serve as the workhorses of the software world.
 
 So what's a non-relational database then?
 
 ## Non-Relational Databases
-Non-relational databases or NoSQL databases are basically everything but table based databases.  They address different use cases than standard SQL databases.  I am going to explore this category in greater depth in my next post, Non-relational Databases, but the most important thing to know is that non-relational databases have a place in the world.  
-
-It's important to know when you should use each type of database.  
+Non-relational databases or NoSQL databases are basically everything but table based databases.  They address different use cases than standard SQL databases.  I am going to explore this category in greater depth in my next post, but the thing to remember is that non-relational databases do have a place in the world, and it's important to know when you should use each kind.  
 
 I plan on learning the most popular version of non-relational databases first, MongoDB, a document-based database.  Get ready for a wild ride :)
 

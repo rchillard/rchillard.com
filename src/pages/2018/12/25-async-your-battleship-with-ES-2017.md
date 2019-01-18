@@ -1,10 +1,9 @@
 ---
-title: "ES2017: Async Your Battleship"
+title: "Async Your Battleship with ES2017"
 date: "2018-12-25"
 tags: ['learn','javascript','es2017']
 ---
 
-## Async
 Async functions are a special type of function that returns a Promise.  They've been designed to make Promises easier to work with.  Imagine they're kind of like all the new String methods, except since Promises are so new, they're coming about in ES2017, instead of ES2015.
 
 I think they're a sign of the language's new speed of evolution.
@@ -123,7 +122,7 @@ destroyShip(XMLDocument) // invalid input for this API
 ```
 
 ## Long Response Promises and Performance
-In our metaphor, imagine that some ships take longer to blow up than others.  There's no reason why a starship pilot shouldn't be able to move on to the next target, while his proton torpedos travel to the first, right?  
+In our metaphor, imagine that some ships take longer to blow up than others.  There's no reason why a starship pilot shouldn't be able to attack the next target, while his proton torpedos travel to the first, right?  
 
 Let's see a really slow example that waits for each request to resolve before moving on to the next one:
 ```javascript
@@ -135,7 +134,7 @@ async function destroyShip(...nums) {
     }
 }
 
-// destroyShip(9, 10, 11)
+destroyShip(9, 10, 11)
 // Luke manuevers into attack position!
 // Promise {<pending>}
 // Luke hits Death Star with a laser blast!
@@ -146,7 +145,7 @@ async function destroyShip(...nums) {
 ```
 This was really, really slow.  It took maybe 10 seconds total, when I tested it in my Chrome console.
 
-And now, what if we make these requests in parallel?
+And now, what if we make these requests in parallel (asynchronously)?
 ```javascript
 async function destroyShip() {
     var attackShip1 = $.getJSON('https://swapi.co/api/starships/9')

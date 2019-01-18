@@ -4,7 +4,6 @@ date: "2018-12-07"
 tags: ['learn','javascript','es2015']
 ---
 
-# Better Arrays
 Finally, they've made Arrays easy to work with in ES2015.  I can't believe I'm saying this.  It's great!  I kind of feel like ES2015 represents years of pent up anger over developers having to manually traverse Arrays using For loops.  Check these changes out:
 
 ## Array.from
@@ -60,5 +59,3 @@ for(let member of stooges){
 
 ## How does this work though?
 Well, it depends on a new function that is part of the array object called Symbol.iterator.  This is really important, because it means this style of loop will not work on generic objects.  For...of can only be used on a data structure that has the Symbol.iterator implemented.
-
-If that wasn't good enough for you, then check out these additional convenience methods!

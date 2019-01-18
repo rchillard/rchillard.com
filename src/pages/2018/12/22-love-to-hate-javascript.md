@@ -34,7 +34,7 @@ movies.map(movie => console.log(movie))
 If you don't find the above sexy, I can't help you.  That's awesome!  Simplified syntax, easier to read, easier to write, it's all wins for JavaScript ES2015, as far as I'm concerned.  Sweet victory!
 
 ## Hold on Turbo
-But wait... there's a catch with a really special edge case (I thought about refraining from even posting this, but I experienced enough anguish that I think it's worth it, even if I only save one another person (future me) from experiencing it again).  Now, let's say you want to do something interesting like cast your array values into an array of objects:
+But wait... there's a catch with a really special edge case (I thought about refraining from even posting this, but I experienced enough anguish that I think it's worth it, even if I only save one other person (future me) from experiencing it again.  Now, let's say you want to do something interesting like cast your array values into an array of objects:
 ```javascript
 let movies = [
   "Jaws",
@@ -51,7 +51,9 @@ console.log(movies)
 //   { title: 'Jurassic Park' },
 //   { title: 'Saving Private Ryan' } ]
 ```
-This works great with the good old, trustworthy, reliable For loop.  How about with the new hotness?
+As you can see, this works great with the good old, trustworthy, reliable For loop.  
+
+How about with the new hotness?
 ```javascript
 let movies = [
   "Jaws",
