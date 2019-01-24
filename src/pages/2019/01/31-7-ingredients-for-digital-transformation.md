@@ -1,8 +1,8 @@
 ---
 title: "Digital Transformation: 7 Ingredients for Change"
-date: "2018-12-31"
+date: "2019-01-31"
 category: "leadership"
 tags: ['rainmaker']
 ---
 
-# Farewell 2018
+# Greetings 2019

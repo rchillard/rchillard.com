@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `RCH`,
     siteUrl: `https://rchillard.com`,
-    description: `Personal blog of RCH`
+    description: `Personal blog of RCH, servant-leader and shortstack developer`
   },
   plugins: [
     {
@@ -14,6 +14,7 @@ module.exports = {
         // path: `${__dirname}/src/images`
       }
     },
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-emotion`,
     `gatsby-remark-copy-linked-files`,
     `gatsby-transformer-sharp`,

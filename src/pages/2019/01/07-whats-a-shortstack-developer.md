@@ -1,5 +1,6 @@
 ---
-title: "What's a Shortstack Developer, Anyway?"
+title: "What's a Shortstack Developer?"
 date: "2019-01-07"
-tags: ['development', 'shortstack']
+category: "development"
+tags: ['shortstack']
 ---
