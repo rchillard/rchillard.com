@@ -8,12 +8,8 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>
-        <h1>Hello, my name's Ryan. Welcome!</h1>
-        <p>
-          I'm a <strong>servant-leader</strong> and{" "}
-          <strong>shortstack developer</strong>. I write about leading teams and
-          learning technology.
-        </p>
+        <h1>Leadership</h1>
+        <p>Stuff.</p>
       </div>
       <div>
         <h2>Latest Posts</h2>
@@ -55,6 +51,7 @@ export default ({ data }) => {
 export const query = graphql`
   query {
     allMarkdownRemark(
+      filter: { frontmatter: { category: { eq: "leadership" } } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: 10
     ) {
@@ -68,6 +65,7 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "MMMM, DD YYYY")
+            category
           }
           excerpt(pruneLength: 200)
         }

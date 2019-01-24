@@ -7,9 +7,9 @@ export default ({ data }) => (
   <Layout>
     <h1>About {data.site.siteMetadata.title}</h1>
     <p>
-      This site is my embrace of learning in public as inspired by Shawn Wang.
-      The idea behind learning in public is that you learn more effectively by
-      being open about what you don't know, by adding to the corpus of human
+      This is my embrace of learning in public as inspired by Shawn Wang. The
+      idea behind learning in public is that you learn more effectively by being
+      open about what you don't know, by adding to the corpus of human
       knowledge, and by digesting concepts and explaining them in your own
       words.<sup>1</sup> This blog is a way for me to digest my own learning.
       It's primarily here for future me, and it's how I plan on:
@@ -35,27 +35,19 @@ export default ({ data }) => (
     </p>
     <h2>Leadership</h2>
     <p>
-      From those mistakes, I have written essays sharing hard lessons I've
-      learned, so that I can improve how project managers, scrum masters, and
-      team leads think about, interact with, and understand their development
-      teams. My writing focuses on how to effectively lead and organize really
-      smart humans.
+      From those mistakes, I write essays sharing hard lessons I've learned, so
+      that I can improve how project managers, scrum masters, and team leads
+      think about, interact with, and understand their development teams. My
+      writing focuses on how to effectively lead and organize really smart
+      humans.
     </p>
-    <h2>Infrastructure</h2>
+    <h2>Technology</h2>
     <p>
-      I have spent the last three years learning about cloud infrastructure, how
-      it works, the do's and don'ts, how to structure resources to meet program
-      demands. I'm now turning to fun hands-on projects on my home network with
-      Raspberry Pi's. This category of articles is the closest thing I have to a
-      hobby.
-    </p>
-    <h2>Development</h2>
-    <p>
-      Although I've worked in and around dev teams for years, I keep itching to
-      get back to the hands-on fun of coding. I love software, because I believe
-      it's <strong>modern day magic</strong>, but I'm a sorcerer that hasn't
-      cast a serious spell in years, and trying to dive back in, I've found that
-      modern web development can feel like this:
+      Although I've supported dev teams for years, I keep itching to get back to
+      the hands-on fun of coding. I love software, because I believe it's{" "}
+      <strong>modern day magic</strong>. But I'm a sorcerer that hasn't cast a
+      serious spell in years, and trying to dive back in, I've found that modern
+      web development can feel like this:
     </p>
     <img
       src={merlin}
@@ -69,6 +61,7 @@ export default ({ data }) => (
       again by reading my first post,{" "}
       <Link to={`/2018/11/15-need-more-leather/`}>Need More Leather</Link>.
     </p>
+    <p />
     <hr />
     <small>
       1. Wang, Shawn. Learn in Public, 2018,{" "}
