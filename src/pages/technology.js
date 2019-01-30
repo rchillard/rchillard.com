@@ -9,7 +9,13 @@ export default ({ data }) => {
     <Layout>
       <div>
         <h1>Technology</h1>
-        <p>Stuff.</p>
+        <p>
+          Incantations, recipes, and spellbooks from my quest to become a{" "}
+          <Link to={"/2019/01/07-whats-a-shortstack-developer/"}>
+            shortstack software developer
+          </Link>
+          .
+        </p>
       </div>
       <div>
         <h2>Latest Posts</h2>

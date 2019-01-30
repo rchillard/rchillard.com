@@ -11,7 +11,7 @@ export default ({ data }) => (
       idea behind learning in public is that you learn more effectively by being
       open about what you don't know, by adding to the corpus of human
       knowledge, and by digesting concepts and explaining them in your own
-      words.<sup>1</sup> This blog is a way for me to digest my own learning.
+      words.<sup>1</sup> This site is a way for me to digest my own learning.
       It's primarily here for future me, and it's how I plan on:
     </p>
     <ul>
@@ -21,8 +21,8 @@ export default ({ data }) => (
       <li>Teaching back to the universe the lessons I've learned</li>
     </ul>
     <p>
-      You will find essays on leadership, articles on infrastructure, and posts
-      on software development.
+      I write essays on leadership, articles on infrastructure, and posts on
+      software development.
     </p>
     <h2>My Background</h2>
     <p>

@@ -10,9 +10,15 @@ export default ({ data }) => {
       <div>
         <h1>Hello, my name's Ryan. Welcome!</h1>
         <p>
-          I'm a <strong>servant-leader</strong> and{" "}
-          <strong>shortstack developer</strong>. I write about leading teams and
-          learning technology.
+          I'm a{" "}
+          <Link to={"/2019/01/01-whats-a-servant-leader/"}>
+            <strong>servant leader</strong>
+          </Link>{" "}
+          and{" "}
+          <Link to={"/2019/01/07-whats-a-shortstack-developer/"}>
+            <strong>shortstack developer</strong>
+          </Link>{" "}
+          . I write about leading teams and learning technology.
         </p>
       </div>
       <div>

@@ -1,0 +1,86 @@
+[33mb1b8078[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m Remove drafts and move them to Google drive
+[33mc33725f[m Add react-helmet and update layout component for SEO
+[33m9de8e65[m Add new pages for leadership and technology with category filters
+[33m85fa6f6[m Update README for consistency
+[33m806403a[m Update About and All Posts page for greater clarity
+[33m48fba70[m Add categories and re-shuffle tags to all posts
+[33mbfc6bab[m Add new browser images for Power over Distraction post
+[33m965fa95[m Copyediting of old posts, new drafts, and revised pictures in Power over Distraction
+[33m60d0404[m Update Header and Layout for greater responsive behavior on very small (old) phones)
+[33m4b1f3ca[m Modify font size in Header to make more responsive at smaller resolutions
+[33mdcf4e83[m Add cloud SVG assets to images folder
+[33mcece2ae[m[33m ([m[1;33mtag: v0.1[m[33m)[m Merge pull request #6 from rchillard/drafts
+[33m0425125[m[33m ([m[1;31morigin/drafts[m[33m, [m[1;32mdrafts[m[33m)[m Update metadata in gatsby-config
+[33m0c8eb03[m Collapse many short posts into easier to reference single posts
+[33md239985[m Merge pull request #5 from rchillard/addimages
+[33mb639693[m[33m ([m[1;31morigin/addimages[m[33m, [m[1;32maddimages[m[33m)[m Refactor application to use CSS modules, add new header/footer, and reorganize images folder
+[33m184dfef[m Add header, footer components and modify layout to accommodate
+[33m88b74c9[m Reorganized old static landing page into own folder
+[33ma6d56a7[m Fix broken README
+[33m392ac6c[m Merge pull request #4 from rchillard/background
+[33m6db1022[m[33m ([m[1;31morigin/background[m[33m)[m Update layout component for initial background setup
+[33m8cb2550[m Copy edit a few pages for clearer messaging
+[33m1c18e88[m Fix About bug with image display
+[33m3d10a2f[m Add skeleton drafts for 12/27-12/31
+[33m7a391a9[m Update 12/24 and 12/25 with edits
+[33mc312664[m Update references across posts, filling in old details, revising certain posts for consistency
+[33m3a3ab3c[m Rename 12/09 for consistency and add 12/26 for final ES2017 post
+[33me345277[m Update 12/23, 12/24, and 12/25 drafts with new lessons
+[33mf3ebdac[m Update various advanced drafts and re-order for simplicity
+[33mb718965[m Merge pull request #3 from rchillard/drafts
+[33m291cf87[m Add 12/22 post for Love to Hate JavaScript
+[33m2e533fe[m Adding 12/18 and 12/20 posts for generators and other helpful methods
+[33mbac6c33[m Add 12/15 post on Maps
+[33md3ee3cb[m Add stub of promises post for 12/17
+[33m8a3505a[m Revise 12/15, 12/16 and 12/21 in preparation for publishing
+[33mf474b73[m Insert missing lesson on inheritance and re-order subsequent posts
+[33m63f6e0f[m Merge pull request #2 from rchillard/drafts
+[33m0703dd6[m Complete 12/04 post and tweak typo in 12/03
+[33ma7215de[m Copyediting of 12/03 and 12/04 posts
+[33mb7082d0[m Polish off posts covering databases and arrow functions
+[33mad528e5[m Add destructuring post for 12/10
+[33m2a3c934[m Add object notation lesson post for 12/19
+[33m3e2383a[m Add ES2015 posts from exercises
+[33maef3d28[m Merge pull request #1 from rchillard/restructure
+[33mfe47703[m[33m ([m[1;31morigin/restructure[m[33m)[m Update date display on homepage
+[33me633238[m Fix titles and dates on draft posts
+[33m4fcaaf2[m Rename all posts for new date format
+[33m907d6f8[m Add background section to about us and merlin pictures
+[33m2477701[m Restructure pages to support month folders
+[33m4d1e888[m Add draft branch to track upcoming posts being worked on
+[33m8ccd27f[m Update 12/01/18 post with additional details
+[33mf8a2907[m Add 11/30 and 12/01 posts
+[33m82a4c87[m Add 11/29/18 post
+[33ma9e9a0d[m Add 2018-11-28 blog post and remove extraneous gatsby-node file
+[33mefb33af[m Add browser pictures of before and after exercises
+[33m6549693[m Add future blog posts and support for responsive iframes
+[33mefe920c[m Revise language in Home Network v1 blog post
+[33m0922496[m Add pi-guard picture as asset
+[33m98944bc[m Add Home Network v1.0 blog post
+[33m6e42b11[m Upload whiteboard images for blog posts
+[33mbeca7db[m Create Anatomy of an HTML Form blogpost
+[33mabb989e[m Create Prototypes in JavaScript blog post
+[33m53491ca[m Add Power of the Marker Board blog post
+[33mb608733[m Tweak initial blog post
+[33m494b3a0[m Fix small error in latest  blog post and update favicon
+[33m7b985f6[m Add support for images in markdown
+[33mc276d21[m Suspend tag work and add plugin for handling images in Markdown
+[33m70629a1[m Add additional blog posts, as well as partially implemented support for tagging
+[33ma8610c8[m Finish basic blog and add first real post
+[33md9338b7[m Remove Panda stuff
+[33m2285156[m Complete Gatsby tutorial to scaffold basic blog
+[33m29bd73d[m Test out initial pages and Gatsby setup
+[33m5a39449[m Remove extraneous CNAME file
+[33m79c8cae[m Revise packages and add CNAME for proper compile with gh-pageS
+[33mfb45bf6[m Update packages and add gatsby-config
+[33m357d0ae[m Install packages and generate package-lock.json
+[33mc9a7ebb[m Initial commit to establish repository
+[33m0bfbb10[m Convert site to basic blog landing page
+[33mf7de0e3[m Merge branch 'master' of github.com:rchillard/rchillard.com
+[33md49394c[m Add hover transform over images
+[33m7aaf2d3[m Add favicon
+[33m6fc5efa[m Create CNAME
+[33m65b5466[m Add logos, update script for all phases of day, fix minor css bugs
+[33me5fcaab[m Add basic script to flip between day and night backgrounds
+[33md15367c[m Add day/night cycle CSS to styles
+[33m486a356[m Initial commit with README, index, styles, and first asset

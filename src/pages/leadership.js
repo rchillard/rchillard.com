@@ -9,7 +9,13 @@ export default ({ data }) => {
     <Layout>
       <div>
         <h1>Leadership</h1>
-        <p>Stuff.</p>
+        <p>
+          Mostly short (but sometimes long) essays and musings on{" "}
+          <Link to={"/2019/01/01-whats-a-servant-leader/"}>
+            serving software development teams
+          </Link>
+          .
+        </p>
       </div>
       <div>
         <h2>Latest Posts</h2>
