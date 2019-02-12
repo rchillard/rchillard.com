@@ -7,19 +7,18 @@ tags: ['shortstack']
 
 A shortstack developer is always two pancakes short of a full stack.  
 
-A full stack of pancakes is technically five pancakes and a shortstack is three.  A fullstack software developer is expected to know each part of the technology stack.  Thus, a shortstack software developer chooses not to take themselves too seriously by professing their love for pancakes and focusing on the parts of the technology stack that matter most to them.  Embracing the shortstack means admitting that you're always going to be two pancakes short, which frees you from your own ego, exposes a true honest self to the world, and makes learning new things that much easier.
+A full stack of pancakes is five pancakes and a shortstack is only three.  A fullstack software developer is expected to know each part of the technology stack.  Thus, a shortstack developer consciously chooses to only focus on the parts of the stack they can eat, while also not taking themselves too seriously.
 
-![Stack of pancakes with syrup](luke-pennystan-1132420-unsplash.jpg)
+Embracing the shortstack means admitting that you're always going to be two pancakes short, which frees you from your own ego, exposes your true honest self to the world, and makes learning new things easier.
+
+Like pancakes, the shortstack is about comfort. :yum:
 
 The web development world's focus on fullstack developers is problematic and unrealistic.  Pledging to be a shortstack developer means freeing yourself of all those fullstack expectations.
 
-Shortstack developers primarily do these three things:
-- Embrace a carefree, fun philosophy when coding
-- Take practical approaches to learning new technology
-- Know and be comfortable with always being two pancakes short of a fullstack!
-
 ## History in Sugar
-The term ‘fullstack developer’ is fairly new, first entering programmer circles 10 years ago, and only really entering the zeitgeist recently.  Before the term was invented, web developers were generally grouped into backend developers vs. frontend developers.  Backend developers being masters of server side technologies and databases, while frontend developers being masters of client side technologies such as HTML, CSS, and JavaScript.
+The term ‘fullstack developer’ is fairly new, first entering programmer circles 10 years ago, and only really entering the zeitgeist recently.  Before the term was invented, web developers were generally grouped into backend developers vs. frontend developers.  Backend developers being masters of server side technologies and databases, while frontend developers being masters of client side technologies such as HTML, CSS, and JavaScript.  That's a lot of pancakes to try and eat:
+
+![Stack of pancakes with syrup](luke-pennystan-1132420-unsplash.jpg)
 
 Even before the bifurcation between backend and frontend, developers were simply called programmers.
 
@@ -41,13 +40,13 @@ Controversy has come from hiring managers and HR departments shifting perception
 Finally, others have argued that advertising that you’re hiring a ‘fullstack’ developer is tantamount to posting a hiring notice for ‘genius’ or ‘ninja’ and that the term lacks any real meaning in today’s world.[^5]
 
 # My Favorite Order :sunglasses:
-I would argue that the web is built on so many layers of technology abstraction that software developers with any less than 10 years of experience could not viably call themselves ‘fullstack’, simply because it would take 10 years to learn all of the technologies or ‘the fullstack’ that powers the web.  And even then, such a developer would have to consciously diversify their knowledge across the stack throughout that ten years, which is difficult to do, because mastery generally begets more mastery in any given area.  Remember, this is everything from the intricacies of CSS to low level networking details.  Even further, a true fullstack developer should likely know multiple real technology stacks, which is even harder.
+I would argue that the web is built on so many layers of technology abstraction that web developers with any less than 10 years of experience could not viably call themselves ‘fullstack’, simply because it would take 10 years to learn all of the technologies or ‘the fullstack’ that powers the web.  And even then, such a developer would have to consciously diversify their knowledge across the stack throughout that ten years, which is difficult to do, because mastery generally begets more mastery in any given area.  Remember, this is everything from the intricacies of CSS to low level networking details.  Even further, a true fullstack developer should likely know multiple real technology stacks, which is even harder.
 
 It’s incredibly overwhelming and scary to even just write down all the topics, technologies, and focus areas that one would need to learn if you were to go on an epic quest to become a real ‘fullstack’ developer.
 
-![Small stack of blueberry and banana pancakes with syrup](nikldn-692193-unsplash.jpg)
+As a result, I identify as a *shortstack developer*.  It’s a lot easier and obviously way more delicious:
 
-As a result, I identify as a *shortstack developer*.  It’s a lot easier.
+![Three pancake stack of blueberry pancakes with syrup](gabriel-gurrola-125332-unsplash.jpg)
 
 ## Philosophy: Dessert for Breakfast
 Shortstack as a philosophy is about taking a carefree attitude towards coding.  In an industry plagued by people suffering from impostor syndrome, requiring developers to learn the ‘fullstack’ only exacerbates the issue by intimidating newbies.  Our carefree attitude is reflected by our love for pancakes, but we only need a shortstack, three pancakes, to be satisfied.
@@ -59,7 +58,7 @@ As an example, if you’re tasked with making a webpage responsive, it’s okay 
 Shortstackers understand that they’re two pancakes short and gladly accept it.
 
 ## Approach: Stay Hungry, My Friends
-Since shortstack developers own a carefree and pragmatic philosophy, they embrace the most effective way to learn new skills, a virtuous learning cycle of:
+Since shortstack developers own a carefree and pragmatic philosophy, they embrace the most effective way to learn new skills, a virtuous cycle of:
 1. **Learn**: read, listen, or watch a short lesson on a new technology
 2. **Build**: immediately create a new project using that technology
 3. **Teach**: solidify their knowledge by teaching, telling, or writing what they learned
@@ -73,7 +72,10 @@ For me personally, my shortstack approach is to embrace managed services and lea
 # Two Pancakes Short
 If you made it this far, many sugary blessings on you!  Obviously, this post is a bit satirical, but I am serious that I think all of us would do better by eating a smaller stack of pancakes, whether that be on our breakfast plates or in our technology obsessed minds.
 
-I adhere to and follow the shortstack philosophy and approach.
+I adhere to the shortstack philosophy and follow its approach.  That means I:
+- Embrace a carefree, fun philosophy when coding
+- Take practical approaches to learning new technology
+- Know and am comfortable with always being two pancakes short of a fullstack!
 
 I’m a shortstacker for life!
 
