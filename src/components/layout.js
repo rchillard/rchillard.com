@@ -11,7 +11,7 @@ export default ({ children }) => (
   <Background>
     <Helmet>
       <meta charSet="utf-8" />
-      <title>RCH | Servant-leader, shortstack developer</title>
+      <title>RCH | Servant leader, shortstack developer</title>
       <link rel="canonical" href="https://rchillard.com" />
     </Helmet>
     <Header />
