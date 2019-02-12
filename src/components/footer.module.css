@@ -1,13 +1,30 @@
 .footer {
-  height: 5rem;
+  background-color: rgb(44, 122, 44);
+  height: 10rem;
   margin: 0 auto;
   max-width: 900px;
 }  
+
+.pad {
+  align-self: center;
+  margin: 0 auto;
+  padding: 1em;
+  transform: scale(0.9);
+  width: 10em;
+}
 
 .icon {
   align-self: center;
   margin: 0 auto;
   padding: 1em;
   transform: scale(0.9);
-  width: 5em;
+  width: 10em;
+}
+
+.special {
+  align-self: center;
+  margin: 0 auto;
+  padding: 1em;
+  transform: scale(0.9);
+  width: 12em;
 }
