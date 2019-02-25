@@ -3,26 +3,29 @@ import styles from "./background.module.css";
 
 class Background extends Component {
   constructor(props) {
-    super(props);
+    super(props)
+
     this.state = {
       isToggleOn: true,
-      timeOfDay: "day"
-    };
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick() {
-    this.setState(prevState => ({
-      isToggleOn: !prevState.isToggleOn
-    }));
+      timeOfDay: new Date().getHours()
+    }
   }
 
   render() {
+    const hour = this.state.timeOfDay
+    let background = { backgroundColor: 'gray' }
+    if (hour >= 5 && hour <= 8) {
+      background = styles.dawn
+    } else if (hour > 8 && hour < 18) {
+      background = styles.day
+    } else if (hour >= 18 && hour <= 21) {
+      background = styles.dusk
+    } else {
+      background = styles.night
+    }
+  
     return (
-      <div className={styles.day}>
-        {/* <button onClick={this.handleClick}>
-          {this.state.isToggleOn ? "ON" : "OFF"}
-        </button> */}
+      <div className={background}>
         {this.props.children}
       </div>
     );
