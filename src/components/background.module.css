@@ -10,7 +10,6 @@
       #83a4d4,
       #b6fbff
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-bottom: 1rem;
   }
   
   .dawn {
@@ -25,7 +24,6 @@
       #00223e,
       #ffa17f
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-bottom: 1rem;
   }
   
   .dusk {
@@ -40,7 +38,6 @@
       #4b1248,
       #f0c27b
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-bottom: 1rem;
   }
   
   .night {
@@ -55,6 +52,4 @@
       #859398,
       #283048
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-bottom: 1rem;
   }
-  

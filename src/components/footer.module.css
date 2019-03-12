@@ -1,5 +1,12 @@
+.ground {
+  background: green;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  width:100%;
+}
+
 .footer {
-  background-color: rgb(44, 122, 44);
+  /* background-color: rgb(44, 122, 44); */
   height: 10rem;
   margin: 0 auto;
   max-width: 900px;
