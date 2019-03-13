@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import style from "./footer.module.css";
-import launchpad from "../images/rch-launchpad.svg";
+// import launchpad from "../images/rch-launchpad.svg";
 import github from "../images/rch-github.svg";
 import npm from "../images/rch-npm.svg";
 import docker from "../images/rch-docker.svg";
@@ -10,7 +10,7 @@ class Footer extends Component {
     return (
       <div className={style.ground}>
         <div className={style.footer}>
-          <img src={launchpad} alt="RCH Launchpad Icon" className={style.pad} />
+        {/* <img src={launchpad} alt="RCH Launchpad Icon" className={style.pad} /> */}
           <a href="https://github.com/rchillard">
             <img src={github} alt="RCH GitHub Icon" className={style.special} />
           </a>
