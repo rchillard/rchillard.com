@@ -5,6 +5,7 @@ a {
   margin: 0 auto;
   padding-top: 1rem;
   max-width: 900px;
+  position: relative;
 }
 
 .header ul {
