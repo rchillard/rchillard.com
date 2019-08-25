@@ -1,5 +1,5 @@
 ---
-title: "Borrowing Time vs. Owning People"
+title: "Borrowing Time vs. Owning Time"
 date: "2019-01-02"
 category: "leadership"
 tags: ['servant-leader']

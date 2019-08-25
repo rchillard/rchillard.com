@@ -15,7 +15,6 @@ export default ({ children }) => (
       <link rel="canonical" href="https://rchillard.com" />
     </Helmet>
     <Header />
-    {/* This is the main pane/content section */}
     <div className={style.layout}>{children}</div>
     <Footer />
   </Background>

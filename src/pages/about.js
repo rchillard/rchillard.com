@@ -21,8 +21,8 @@ export default ({ data }) => (
       <li>Teaching back to the universe the lessons I've learned</li>
     </ul>
     <p>
-      I write essays on leadership, articles on infrastructure, and posts on
-      software development.
+      I write essays on leadership and articles tracing my software development
+      journey.
     </p>
     <h2>My Background</h2>
     <p>
@@ -36,10 +36,9 @@ export default ({ data }) => (
     <h2>Leadership</h2>
     <p>
       From those mistakes, I write essays sharing hard lessons I've learned, so
-      that I can improve how project managers, scrum masters, and team leads
-      think about, interact with, and understand their development teams. My
-      writing focuses on how to effectively lead and organize really smart
-      humans.
+      that I can improve how team leaders think about, interact with, and
+      understand their development teams. My essay writing focuses on how to
+      effectively lead, serve, and organize really smart humans.
     </p>
     <h2>Technology</h2>
     <p>

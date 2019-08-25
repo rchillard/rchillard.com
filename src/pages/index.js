@@ -18,7 +18,7 @@ export default ({ data }) => {
           <Link to={"/2019/01/07-whats-a-shortstack-developer/"}>
             <strong>shortstack developer</strong>
           </Link>{" "}
-          . I write about leading teams and learning technology.
+          that writes about leading teams and learning technology.
         </p>
       </div>
       <div>

@@ -10,7 +10,7 @@ export default ({ data }) => {
       <div>
         <h1>Leadership</h1>
         <p>
-          Mostly short (but sometimes long) essays and musings on{" "}
+          Mostly short (sometimes long) essays and musings on{" "}
           <Link to={"/2019/01/01-whats-a-servant-leader/"}>
             serving software development teams
           </Link>
