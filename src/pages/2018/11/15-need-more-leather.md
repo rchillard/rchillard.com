@@ -15,7 +15,7 @@ Welcome. :smiling_imp:
 This is my first post, and it has been such a large bootstrapping effort that I think we're going to need more leather.  Seriously, the digital equivalent of this set of tools were just used:
 
 ![Set of leather working tools](leather-tools.jpg "Need More Leather")
-Todd Quackenbush via [Unsplash](https://unsplash.com/photos/IClZBVw5W5A)
+<p style='text-align: right;'>Todd Quackenbush via <a href="https://unsplash.com/photos/IClZBVw5W5A">Unsplash</a></p>
 
 This site was built from traversing the amazing [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/).  
 
@@ -32,7 +32,7 @@ I have been through a number of different React tutorials, including an all day 
 Why is this such a big problem for me?
 
 ![Tyrannosaurus Rex](t-rex.jpg "Tyrannosaurus Rex")
-Image by Fausto García via [Unsplash](https://unsplash.com/photos/hYKG311mff8)
+<p style='text-align: right;'>Fausto García via <a href="https://unsplash.com/photos/hYKG311mff8">Unsplash</a></p>
 
 ## I'm a Dinosaur 
 
