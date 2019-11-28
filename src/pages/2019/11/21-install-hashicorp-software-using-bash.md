@@ -5,7 +5,7 @@ category: "development"
 tags: ['productivity']
 ---
 
-Building on my last post, I wanted to breakdown a similar bash script that will install a HashiCorp tool for you called Packer.  HashiCorp is an open source first company that produces tools that make managing cloud infrastructure easier.  They also distribute those tools as stand alone binary files, which are completely portable.  Packer is one of their tools that will allow you to easily build machine images in a reproducible way.  This is important for running immutable infrastructure in the cloud, because you want to be able to easily build freshly patched images and run your hosts using them. 
+Building on my last post, I wanted to breakdown a similar bash script that will install a tool from HashiCorp called Packer.  HashiCorp is a company creating tools that make managing cloud infrastructure easier.  They distribute their tools as stand alone binary files, so they'll be portable, and they release new versions of each one quite often.  Packer is one of their tools that will allow you to easily build machine images in a reproducible way.  This is important for running immutable infrastructure, because you need a scriptable, repeatable way to build new images for your servers or hosts. 
 
 This post isn't about cloud infrastructure though.  This is about simple bash scripts to download binary files from presupposed places on the interwebz. :)
 
