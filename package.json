@@ -12,7 +12,7 @@
   "dependencies": {
     "emotion": "^10.0.0",
     "emotion-server": "^9.2.12",
-    "gatsby": "^2.18.10",
+    "gatsby": "^2.23.20",
     "gatsby-plugin-emotion": "^2.0.6",
     "gatsby-plugin-react-helmet": "^3.0.5",
     "gatsby-plugin-sharp": "^2.0.12",
@@ -27,7 +27,7 @@
     "gatsby-transformer-sharp": "^2.1.8",
     "gh-pages": "^2.0.1",
     "netlify-cms": "^2.10.30",
-    "prismjs": "^1.15.0",
+    "prismjs": "^1.21.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-emotion": "^10.0.0",
