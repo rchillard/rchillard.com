@@ -29,7 +29,7 @@
     "gatsby-transformer-sharp": "^2.1.8",
     "gh-pages": "^2.0.1",
     "netlify-cms": "^2.10.30",
-    "prismjs": "^1.23.0",
+    "prismjs": "^1.21.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-emotion": "^10.0.0",
@@ -37,7 +37,7 @@
     "react-typography": "^0.16.13",
     "typography": "^0.16.17",
     "typography-theme-noriega": "^0.15.10",
-    "snyk": "^1.437.2"
+    "snyk": "^1.491.0"
   },
   "devDependencies": {},
   "snyk": true
