@@ -27,7 +27,7 @@
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-remark": "^2.1.12",
     "gatsby-transformer-sharp": "^2.1.8",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^3.2.1",
     "netlify-cms": "^2.10.30",
     "prismjs": "^1.23.0",
     "react": "^16.5.1",
