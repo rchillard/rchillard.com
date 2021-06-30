@@ -29,7 +29,7 @@
     "gatsby-transformer-sharp": "^2.1.8",
     "gh-pages": "^2.0.1",
     "netlify-cms": "^2.10.30",
-    "prismjs": "^1.23.0",
+    "prismjs": "^1.24.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-emotion": "^10.0.0",
