@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.19.0
+version: v1.22.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -54,3 +54,7 @@ patch:
         patched: '2020-12-22T05:41:44.798Z'
     - snyk > snyk-mvn-plugin > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-12-22T05:41:44.798Z'
+    - snyk > inquirer > lodash:
+        patched: '2022-03-26T16:48:38.018Z'
+    - gatsby > gatsby-cli > yurnalist > inquirer > lodash:
+        patched: '2022-03-26T16:48:38.018Z'
