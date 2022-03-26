@@ -8,7 +8,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "deploy": "gatsby build && gh-pages -d public -b gh-pages",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
@@ -37,7 +37,7 @@
     "react-typography": "^0.16.13",
     "typography": "^0.16.17",
     "typography-theme-noriega": "^0.15.10",
-    "snyk": "^1.437.2"
+    "@snyk/protect": "latest"
   },
   "devDependencies": {},
   "snyk": true
