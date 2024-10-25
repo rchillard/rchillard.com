@@ -14,7 +14,7 @@
   "dependencies": {
     "emotion": "^10.0.0",
     "emotion-server": "^9.2.12",
-    "gatsby": "^3.0.0",
+    "gatsby": "^4.22.0",
     "gatsby-plugin-emotion": "^2.0.6",
     "gatsby-plugin-react-helmet": "^3.0.5",
     "gatsby-plugin-sharp": "^2.0.12",
@@ -37,7 +37,7 @@
     "react-typography": "^0.16.13",
     "typography": "^0.16.17",
     "typography-theme-noriega": "^0.15.10",
-    "snyk": "^1.437.2"
+    "snyk": "^1.996.0"
   },
   "devDependencies": {},
   "snyk": true
