@@ -1,0 +1,9 @@
+# www.robotstxt.org/
+
+# Allow crawling of all content
+User-agent: *
+Disallow:
+
+# https://www.sitemaps.org/protocol.html
+# Sitemap location
+Sitemap: https://example.com/sitemap.xml

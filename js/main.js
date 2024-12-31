@@ -1,0 +1,1 @@
+console.debug('main.js loaded')

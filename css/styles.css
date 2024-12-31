@@ -1,0 +1,238 @@
+/* main styles using CUBE CSS https://cube.fyi/ */
+:root {
+    /* colors */
+    --color-primary: white;
+    --color-secondary: black;
+    --color-tertiary: gray;
+    --color-highlight: red;
+
+    color-scheme: light;
+
+    /* fonts */
+    --font-stack: Verdana, Arial, Helvetica, sans-serif;
+
+    /* font scaling: https://utopia.fyi/type/calculator/ */
+    --step--2: clamp(0.91rem, calc(0.89rem + 0.10vw), 0.96rem);
+    --step--1: clamp(1.09rem, calc(1.05rem + 0.21vw), 1.20rem);
+    --step-0: clamp(1.31rem, calc(1.24rem + 0.37vw), 1.50rem);
+    --step-1: clamp(1.58rem, calc(1.46rem + 0.59vw), 1.88rem);
+    --step-2: clamp(1.89rem, calc(1.71rem + 0.89vw), 2.34rem);
+    --step-3: clamp(2.27rem, calc(2.01rem + 1.29vw), 2.93rem);
+    --step-4: clamp(2.72rem, calc(2.36rem + 1.83vw), 3.66rem);
+    --step-5: clamp(3.27rem, calc(2.75rem + 2.56vw), 4.58rem);
+
+    --tracking: normal;
+    
+    /* layout */
+    --flow-space: 1em;
+    --gap: 1.5rem;
+
+    /* spacing: https://utopia.fyi/space/calculator/ 
+       background: https://utopia.fyi/blog/designing-with-a-fluid-space-palette
+    */
+    --space-xs: clamp(1.00rem, calc(0.95rem + 0.24vw), 1.13rem);
+    --space-s: clamp(1.31rem, calc(1.24rem + 0.37vw), 1.50rem);
+    --space-m: clamp(2.00rem, calc(1.90rem + 0.49vw), 2.25rem);
+    --space-l: clamp(2.63rem, calc(2.48rem + 0.73vw), 3.00rem);
+  
+    /* one-up pairs */
+    --space-xs-s: clamp(1.00rem, calc(0.80rem + 0.98vw), 1.50rem);
+    --space-s-m: clamp(1.31rem, calc(0.95rem + 1.83vw), 2.25rem);
+    --space-m-l: clamp(2.00rem, calc(1.61rem + 1.95vw), 3.00rem);
+  
+    /* custom pairs */
+    --space-s-l: clamp(1.31rem, calc(0.65rem + 3.29vw), 3.00rem);
+}
+
+
+/* base */
+a {
+    color: var(--color-highlight);
+}
+
+body {
+    font-family: var(--font-stack);
+    font-size: var(--step-0);
+    letter-spacing: var(--tracking);
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 2px solid var(--color-highlight);
+    display: inline-block;
+    height: 1rem;
+    margin-right: .5rem;
+    position: relative;
+    width: 1rem;
+}
+
+input[type="checkbox"]:checked {
+    background-color: var(--color-highlight);
+}
+
+/* Create a custom checkmark */
+input[type="checkbox"]:checked::after {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    content: '';
+    height: 8px;
+    left: 5px;
+    position: absolute;
+    top: 2px;
+    transform: rotate(45deg);
+    width: 4px;
+}
+
+/* compositions - flexible, component-agnostic layouts */
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+.flow > * + * {
+    margin-top: var(--flow-space, 1em);
+}
+
+.horizontal-distributed {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.wrapper {
+    margin: 1rem auto;
+	max-width: clamp(360px, 80ch, 1100px);
+	padding: 0 1rem;
+	width: 100%;
+}
+
+
+/* utilities - classes that do one job well */
+
+.bg-primary {
+    background: var(--color-primary);
+}
+
+.bg-secondary {
+    background: var(--color-secondary);
+}
+
+.bg-tertiary {
+    background: var(--color-tertiary);
+}
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-secondary {
+    color: var(--color-secondary);
+}
+
+.color-tertiary {
+    color: var(--color-tertiary);
+}
+
+
+/* blocks - skeletal components and organizational structures */
+
+.button {
+    border: 0;
+    cursor: pointer;
+    /* padding: 1em 2em; */
+    padding: var(--space-xs) var(--space-m);
+    text-decoration: none;
+}
+
+.button[data-type="primary"] {
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+}
+
+.button[data-type="primary"]:hover,
+.button[data-type="primary"]:focus {
+    color: var(--color-secondary);
+    background-color: var(--color-tertiary);
+}
+
+.button[data-type="secondary"] {
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+}
+
+.button[data-type="secondary"]:hover,
+.button[data-type="secondary"]:focus {
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+}
+
+.card {
+    border-radius: 5px;
+    padding: var(--space-xs);
+}
+
+.card h4 {
+    font-style: italic;
+}
+
+.checklist {
+    padding: var(--space-xs-s);
+}
+
+.checklist > * {
+    display: block;
+    padding-left: var(--space-xs);
+}
+
+.checklist label {
+    align-items: center;
+    border: 1px solid var(--color-tertiary);
+    display: flex;
+    margin-bottom: 1px;
+}
+
+.logo {
+    display: inline;
+    width: 2rem;
+}
+
+.main-menu ul {
+	list-style: none;
+	padding: 0;
+}
+
+.main-menu ul li {
+	display: inline-block;
+	padding-right: var(--space-xs);
+	position: relative;
+	text-align: left;
+}
+
+.main-menu ul li a:hover {
+	color: var(--color-tertiary);
+	text-decoration: none;
+}
+
+.main-menu ul li a {
+	text-decoration: none;
+}
+
+
+/* exceptions - deviations from rules outlined in a block */
+
+.card[data-state='reversed'] {
+    flex-direction: column-reverse;
+  }
+  
+
+/* media queries */
+/* extra small devices (compact phones, 380px and smaller) */
+
+@media only screen and (max-width: 380px) {
+    nav {
+		flex-direction: column;
+	}
+}
