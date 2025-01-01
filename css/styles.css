@@ -4,9 +4,9 @@
     --color-primary: white;
     --color-secondary: black;
     --color-tertiary: gray;
-    --color-highlight: red;
+    --color-highlight: orangered;
 
-    color-scheme: light;
+    color-scheme: dark;
 
     /* fonts */
     --font-stack: Verdana, Arial, Helvetica, sans-serif;
@@ -51,6 +51,7 @@ a {
 }
 
 body {
+    color: var(--color-primary);
     font-family: var(--font-stack);
     font-size: var(--step-0);
     letter-spacing: var(--tracking);
@@ -194,14 +195,19 @@ input[type="checkbox"]:checked::after {
     margin-bottom: 1px;
 }
 
+.icon {
+    width: 1.5rem;
+}
+
 .logo {
     display: inline;
-    width: 2rem;
+    width: 3rem;
 }
 
 .main-menu ul {
+    border-radius: 2rem;
 	list-style: none;
-	padding: 0;
+    padding: 1rem 1.5rem;
 }
 
 .main-menu ul li {
