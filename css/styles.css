@@ -73,7 +73,7 @@ input[type="checkbox"]:checked {
     background-color: var(--color-highlight);
 }
 
-/* Create a custom checkmark */
+/* Create a custom checkmark
 input[type="checkbox"]:checked::after {
     border: solid white;
     border-width: 0 2px 2px 0;
@@ -84,7 +84,7 @@ input[type="checkbox"]:checked::after {
     top: 2px;
     transform: rotate(45deg);
     width: 4px;
-}
+} */
 
 /* compositions - flexible, component-agnostic layouts */
 
