@@ -196,18 +196,18 @@ input[type="checkbox"]:checked::after {
 }
 
 .icon {
-    width: 1.5rem;
+    width: var(--step-0);
 }
 
 .logo {
     display: inline;
-    width: 3rem;
+    width: var(--step-4);
 }
 
 .main-menu ul {
     border-radius: 2rem;
 	list-style: none;
-    padding: 1rem 1.5rem;
+    padding: 1rem var(--space-s);
 }
 
 .main-menu ul li {
@@ -236,10 +236,29 @@ input[type="checkbox"]:checked::after {
 
 /* media queries */
 
-/* small devices (phones, 550px and smaller) */
+/* medium devices (phones, 550px and smaller) */
 @media only screen and (max-width: 550px) {
     nav {
         font-size: var(--step--1);
+    }
+}
+
+/* small devices (phones, 480px and smaller) */
+@media only screen and (max-width: 480px) {
+    nav {
+        font-size: var(--step--2);
+    }
+
+    .logo {
+        width: var(--step-3);
+    }    
+
+    .main-menu ul {
+        padding: .75rem 1rem;
+    }
+
+    .main-menu ul li {
+        padding-right: .5rem;
     }
 }
 
