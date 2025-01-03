@@ -235,8 +235,15 @@ input[type="checkbox"]:checked::after {
   
 
 /* media queries */
-/* extra small devices (compact phones, 380px and smaller) */
 
+/* small devices (phones, 550px and smaller) */
+@media only screen and (max-width: 550px) {
+    nav {
+        font-size: var(--step--1);
+    }
+}
+
+/* extra small devices (compact phones, 380px and smaller) */
 @media only screen and (max-width: 380px) {
     nav {
 		flex-direction: column;
