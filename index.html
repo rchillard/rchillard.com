@@ -6,7 +6,7 @@
   <title>RCH | Leader, developer</title>
   <meta name="description" content="Personal website of RCH, servant leader and shortstack developer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; script-src 'self'; style-src 'self'; report-uri /csp-report-endpoint;">
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; script-src 'self'; style-src 'self'; report-uri /csp-report-endpoint;"> -->
 
   <meta property="og:title" content="RCH | Leader, developer">
   <meta property="og:type" content="website">
@@ -25,7 +25,9 @@
 </head>
 
 <body>
-  <background-sky>
+  
+  <div class="background">
+
   <header class="wrapper">
     <nav class="main-menu | horizontal-distributed">
       <a href="index.html">
@@ -40,7 +42,7 @@
     </nav>
   </header>
 
-  <main class="flow | wrapper">
+  <main class="flow | wrapper | bg-primary | br-2">
     <h1>Hello, my name's Ryan. Welcome!</h1>
     <p>January 1, 2025</p>
     <p>Over six years ago I returned to the world of web development and started this blog.  I was <strong>so excited</strong> at the time, because I was just discovering the world of component-based frontend development and React.</strong></p>
@@ -94,7 +96,7 @@
 
   </main>
 
-  <footer class="wrapper">
+  <footer class="wrapper | bg-primary | br-2">
     <nav class="main-menu | horizontal-distributed">
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -104,9 +106,11 @@
       </ul>
     </nav>
   </footer>
-  </background-sky>
+
+  </div> <!-- background -->
+
   <script src="js/plugins.js"></script>
-  <script src="js/main.js" type="module"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

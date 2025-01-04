@@ -51,7 +51,6 @@ a {
 }
 
 body {
-    color: var(--color-primary);
     font-family: var(--font-stack);
     font-size: var(--step-0);
     letter-spacing: var(--tracking);
@@ -181,6 +180,10 @@ input[type="checkbox"]:checked::after {
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.br-2 {
+    border-radius: 2rem;
+}
+
 .color-primary {
     color: var(--color-primary);
 }
@@ -196,10 +199,9 @@ input[type="checkbox"]:checked::after {
 
 /* blocks - skeletal components and organizational structures */
 
-.background-stars {
-    position: absolute;
-    width: 99%;
-    height: 99%;
+.background {
+    width: 100%;
+    height: 100%;
     overflow: hidden;
 }
 
