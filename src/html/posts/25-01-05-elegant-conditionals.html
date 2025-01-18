@@ -1,0 +1,138 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>RCH | Leader, developer</title>
+  <meta name="description" content="Personal website of RCH, servant leader and shortstack developer">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; script-src 'self'; style-src 'self'; report-uri /csp-report-endpoint;"> -->
+
+  <meta property="og:title" content="RCH | Leader, developer">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rchillard.com">
+  <meta property="og:image" content="">
+  <meta name="og:description" content="Personal website of RCH, servant leader and shortstack developer">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/sane.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <div class="background">
+
+  <header class="wrapper">
+    <nav class="main-menu | horizontal-distributed">
+      <a href="index.html">
+        <img alt="Rocket ship labeled with R C H down the body with a yellow flame shooting out of its tail" class="logo" src="./img/logo.svg">
+      </a>
+      <ul class="bg-primary">
+        <li><a href="leadership.html">Leadership</a></li>
+        <li><a href="technology.html">Technology</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="https://github.com/rchillard"><img alt="GitHub's Octocat icon in black" class="icon" src="./img/github.svg"/></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main><h1 id="code-quality-and-system-maintainability">Code Quality and System
+Maintainability</h1>
+<p>I think a lot about code quality and system maintainability,
+especially because I often look at code I wrote only a month ago and
+wrinkle my nose. In this post, I'll revisit fairly simple code I wrote 7
+years ago. Let's explore how we can improve it.</p>
+<p>Conditional logic seems to trip up the human mind, because even just
+a few layers provides so many possible execution branches that it's hard
+to reason around.</p>
+<p>I'd like to unpack my thought process by evaluating multiple options
+for expressing readable conditional logic.</p>
+<p>I went through this exercise while evaluating how to re-implement my
+background for this blog as a vanilla web component. Very simply, this
+web component is supposed to detect the client's time and then assign
+certain CSS styles based on the hour, styles which correspond to the
+time of day.</p>
+<h2 id="original-code">Original code:</h2>
+<p>Here's the code I wrote back in 2018:</p>
+<pre class="javascript"><code>const hour = new Date().getHours();
+
+let background = { backgroundColor: &quot;gray&quot; };
+
+if (hour &gt;= 5 &amp;&amp; hour &lt;= 8) {
+    background = styles.dawn;
+} else if (hour &gt; 8 &amp;&amp; hour &lt; 18) {
+    background = styles.day;
+} else if (hour &gt;= 18 &amp;&amp; hour &lt;= 21) {
+    background = styles.dusk;
+} else {
+    background = styles.night;
+}</code></pre>
+<h2 id="using-switch-with-true">Using switch with true:</h2>
+<pre class="javascript"><code>switch (true) {
+  case hour &gt;= 5 &amp;&amp; hour &lt;= 8:
+    background = styles.dawn;
+    break;
+  case hour &gt; 8 &amp;&amp; hour &lt; 18:
+    background = styles.day;
+    break;
+  case hour &gt;= 18 &amp;&amp; hour &lt;= 21:
+    background = styles.dusk;
+    break;
+  default:
+    background = styles.night;
+}</code></pre>
+<h2 id="using-a-function-with-an-array-of-conditions">Using a function
+with an array of conditions:</h2>
+<pre class="javascript"><code>const conditions = [
+  { check: hour =&gt; hour &gt;= 5 &amp;&amp; hour &lt;= 8, style: styles.dawn },
+  { check: hour =&gt; hour &gt; 8 &amp;&amp; hour &lt; 18, style: styles.day },
+  { check: hour =&gt; hour &gt;= 18 &amp;&amp; hour &lt;= 21, style: styles.dusk },
+  { check: () =&gt; true, style: styles.night }, // default case
+];
+
+background = conditions.find(({ check }) =&gt; check(hour)).style;</code></pre>
+<h2 id="using-a-utility-function-with-early-returns">Using a utility
+function with early returns:</h2>
+<pre class="javascript"><code>function getBackgroundStyle(hour) {
+  if (hour &gt;= 5 &amp;&amp; hour &lt;= 8) return styles.dawn;
+  if (hour &gt; 8 &amp;&amp; hour &lt; 18) return styles.day;
+  if (hour &gt;= 18 &amp;&amp; hour &lt;= 21) return styles.dusk;
+  return styles.night; // default case
+}
+
+background = getBackgroundStyle(hour);</code></pre>
+<h2 id="using-an-array-for-ranges">Using an array for ranges:</h2>
+<pre class="javascript"><code>const ranges = [
+  { start: 5, end: 8, style: styles.dawn },
+  { start: 8, end: 18, style: styles.day },
+  { start: 18, end: 21, style: styles.dusk },
+  { start: 21, end: 24, style: styles.night }, // Handle the night case
+  { start: 0, end: 5, style: styles.night },
+];
+
+background = ranges.find(({ start, end }) =&gt; hour &gt;= start &amp;&amp; hour &lt; end).style;</code></pre>  </main>
+  
+  <footer class="wrapper | bg-primary | br-2">
+    <nav class="main-menu | horizontal-distributed">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="leadership.html">Leadership</a></li>
+        <li><a href="technology.html">Technology</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  </div> <!-- background -->
+
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
