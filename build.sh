@@ -23,7 +23,18 @@ is-program-installed() {
   which $1 >> /dev/null
   if [ $? -eq 1 ]; then
     message error "Program required: $1"
-    exit 1
+
+    # This feels unsafe
+    sudo apt install $1
+
+    if [[ $? -eq 0 ]]; then
+      echo "Installation succeeded!"
+      message info "$1 was installed"
+    else
+      echo "Installation failed!"
+      exit 1
+    fi
+
   else
     message info "$1 is installed"
   fi
