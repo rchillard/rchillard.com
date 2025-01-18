@@ -1,3 +1,16 @@
+---
+title: "Code Quality and System Maintainability"
+author: "Ryan Hillard"
+date: "2025-01-05"
+subtitle:
+abstract:
+abstract-title:
+keywords: [logic, simplicity]
+category: "technology"
+tags: [foo, bar]
+---
+
+# Code Quality and System Maintainability
 
 I think a lot about code quality and system maintainability, especially because I often look at code I wrote only a month ago and wrinkle my nose.  In this post, I'll revisit fairly simple code I wrote 7 years ago.  Let's explore how we can improve it.
 
@@ -10,7 +23,7 @@ I went through this exercise while evaluating how to re-implement my background 
 ## Original code:
 Here's the code I wrote back in 2018:
 
-```
+```javascript
 const hour = new Date().getHours();
 
 let background = { backgroundColor: "gray" };
@@ -28,7 +41,7 @@ if (hour >= 5 && hour <= 8) {
 
 ## Using switch with true:
 
-```
+```javascript
 switch (true) {
   case hour >= 5 && hour <= 8:
     background = styles.dawn;
@@ -47,7 +60,7 @@ switch (true) {
 ## Using a function with an array of conditions:
 
 
-```
+```javascript
 const conditions = [
   { check: hour => hour >= 5 && hour <= 8, style: styles.dawn },
   { check: hour => hour > 8 && hour < 18, style: styles.day },
@@ -60,7 +73,7 @@ background = conditions.find(({ check }) => check(hour)).style;
 
 ## Using a utility function with early returns:
 
-```
+```javascript
 function getBackgroundStyle(hour) {
   if (hour >= 5 && hour <= 8) return styles.dawn;
   if (hour > 8 && hour < 18) return styles.day;
@@ -74,7 +87,7 @@ background = getBackgroundStyle(hour);
 
 ## Using an array for ranges:
 
-```
+```javascript
 const ranges = [
   { start: 5, end: 8, style: styles.dawn },
   { start: 8, end: 18, style: styles.day },
