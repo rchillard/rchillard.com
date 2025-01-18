@@ -25,7 +25,7 @@ is-program-installed() {
     message error "Program required: $1"
 
     # This feels unsafe
-    sudo apt install $1
+    apt install $1
 
     if [[ $? -eq 0 ]]; then
       echo "Installation succeeded!"
