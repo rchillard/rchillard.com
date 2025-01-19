@@ -17,4 +17,3 @@ firefox -new-tab $SITE_URL
 message notify "Launching a basic web server using... ${SRC_DIR}"
 
 python3 -m http.server -d $SRC_DIR
-

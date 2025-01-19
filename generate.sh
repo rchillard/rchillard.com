@@ -1,5 +1,8 @@
 #!/bin/bash
 # generate.sh
+# Usage
+#
+
 DIR=$(dirname $(readlink -f $0))
 source $DIR/scripts/util.sh
 
