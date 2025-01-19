@@ -64,6 +64,10 @@ body {
     letter-spacing: var(--tracking);
 }
 
+img {
+    border-radius: .5rem;
+}
+
 input[type="checkbox"] {
     appearance: none;
     -webkit-appearance: none;
@@ -203,11 +207,10 @@ input[type="checkbox"]:checked {
 }
 
 .button {
-    border: 0;
+    border: 1px solid var(--color-primary);
+    border-radius: .5rem;
     cursor: pointer;
-    /* padding: 1em 2em; */
     padding: var(--space-xs) var(--space-m);
-    text-decoration: none;
 }
 
 .button[data-type="primary"] {
@@ -233,7 +236,7 @@ input[type="checkbox"]:checked {
 }
 
 .card {
-    border-radius: 5px;
+    border-radius: 1rem;
     padding: var(--space-xs);
 }
 
