@@ -5,9 +5,9 @@ date: "2025-01-25"
 subtitle:
 abstract:
 abstract-title:
-keywords: [logic, simplicity]
+keywords: []
 category: "technology"
-tags: [foo, bar]
+tags: []
 ---
 
 # 25 Side Projects in 2025

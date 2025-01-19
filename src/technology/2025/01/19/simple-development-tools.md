@@ -7,7 +7,9 @@ abstract:
 abstract-title:
 keywords: ["development", "software", "tools"]
 category: "technology"
-tags: ["foo", "bar"]
+tags: []
 ---
 
 # Simple Development Tools
+
+Test post
