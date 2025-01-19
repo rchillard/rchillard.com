@@ -1,7 +1,12 @@
 #!/bin/bash
 # copy.sh
+# Usage
+# 
+
 DIR=$(dirname $(readlink -f $0))
 source $DIR/util.sh
+
+MESSAGE_DEBUG=1
 
 SRC_DIR="src/."
 DEST_DIR="build/"

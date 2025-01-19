@@ -1,5 +1,8 @@
 #!/bin/bash
 # update-css.sh
+# Usage
+# 
+
 DIR=$(dirname $(readlink -f $0))
 source $DIR/util.sh
 
