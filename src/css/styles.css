@@ -11,37 +11,45 @@
     /* fonts */
     --font-stack: Verdana, Arial, Helvetica, sans-serif;
 
-    /* font scaling: https://utopia.fyi/type/calculator/ */
-    --step--2: clamp(0.91rem, calc(0.89rem + 0.10vw), 0.96rem);
-    --step--1: clamp(1.09rem, calc(1.05rem + 0.21vw), 1.20rem);
-    --step-0: clamp(1.31rem, calc(1.24rem + 0.37vw), 1.50rem);
-    --step-1: clamp(1.58rem, calc(1.46rem + 0.59vw), 1.88rem);
-    --step-2: clamp(1.89rem, calc(1.71rem + 0.89vw), 2.34rem);
-    --step-3: clamp(2.27rem, calc(2.01rem + 1.29vw), 2.93rem);
-    --step-4: clamp(2.72rem, calc(2.36rem + 1.83vw), 3.66rem);
-    --step-5: clamp(3.27rem, calc(2.75rem + 2.56vw), 4.58rem);
+    /* font scaling: @link https://utopia.fyi/type/calculator?c=320,18,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+    --step--2: clamp(0.7813rem, 0.7747rem + 0.0326vw, 0.8rem);
+    --step--1: clamp(0.9375rem, 0.9158rem + 0.1087vw, 1rem);
+    --step-0: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+    --step-1: clamp(1.35rem, 1.2761rem + 0.3696vw, 1.5625rem);
+    --step-2: clamp(1.62rem, 1.5041rem + 0.5793vw, 1.9531rem);
+    --step-3: clamp(1.944rem, 1.771rem + 0.8651vw, 2.4414rem);
+    --step-4: clamp(2.3328rem, 2.0827rem + 1.2504vw, 3.0518rem);
+    --step-5: clamp(2.7994rem, 2.4462rem + 1.7658vw, 3.8147rem);
 
     --tracking: normal;
     
     /* layout */
-    --flow-space: 1em;
+    --flow-space: 1rem;
     --gap: 1.5rem;
 
-    /* spacing: https://utopia.fyi/space/calculator/ 
-       background: https://utopia.fyi/blog/designing-with-a-fluid-space-palette
-    */
-    --space-xs: clamp(1.00rem, calc(0.95rem + 0.24vw), 1.13rem);
-    --space-s: clamp(1.31rem, calc(1.24rem + 0.37vw), 1.50rem);
-    --space-m: clamp(2.00rem, calc(1.90rem + 0.49vw), 2.25rem);
-    --space-l: clamp(2.63rem, calc(2.48rem + 0.73vw), 3.00rem);
+    /* spacing: @link https://utopia.fyi/space/calculator?c=320,18,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+    --space-3xs: clamp(0.3125rem, 0.3125rem + 0vw, 0.3125rem);
+    --space-2xs: clamp(0.5625rem, 0.5408rem + 0.1087vw, 0.625rem);
+    --space-xs: clamp(0.875rem, 0.8533rem + 0.1087vw, 0.9375rem);
+    --space-s: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+    --space-m: clamp(1.6875rem, 1.6223rem + 0.3261vw, 1.875rem);
+    --space-l: clamp(2.25rem, 2.163rem + 0.4348vw, 2.5rem);
+    --space-xl: clamp(3.375rem, 3.2446rem + 0.6522vw, 3.75rem);
+    --space-2xl: clamp(4.5rem, 4.3261rem + 0.8696vw, 5rem);
+    --space-3xl: clamp(6.75rem, 6.4891rem + 1.3043vw, 7.5rem);
   
-    /* one-up pairs */
-    --space-xs-s: clamp(1.00rem, calc(0.80rem + 0.98vw), 1.50rem);
-    --space-s-m: clamp(1.31rem, calc(0.95rem + 1.83vw), 2.25rem);
-    --space-m-l: clamp(2.00rem, calc(1.61rem + 1.95vw), 3.00rem);
+    /* One-up pairs */
+    --space-3xs-2xs: clamp(0.3125rem, 0.2038rem + 0.5435vw, 0.625rem);
+    --space-2xs-xs: clamp(0.5625rem, 0.4321rem + 0.6522vw, 0.9375rem);
+    --space-xs-s: clamp(0.875rem, 0.7446rem + 0.6522vw, 1.25rem);
+    --space-s-m: clamp(1.125rem, 0.8641rem + 1.3043vw, 1.875rem);
+    --space-m-l: clamp(1.6875rem, 1.4049rem + 1.413vw, 2.5rem);
+    --space-l-xl: clamp(2.25rem, 1.7283rem + 2.6087vw, 3.75rem);
+    --space-xl-2xl: clamp(3.375rem, 2.8098rem + 2.8261vw, 5rem);
+    --space-2xl-3xl: clamp(4.5rem, 3.4565rem + 5.2174vw, 7.5rem);
   
-    /* custom pairs */
-    --space-s-l: clamp(1.31rem, calc(0.65rem + 3.29vw), 3.00rem);
+    /* Custom pairs */
+    --space-s-l: clamp(1.125rem, 0.6467rem + 2.3913vw, 2.5rem);
 }
 
 
@@ -72,18 +80,6 @@ input[type="checkbox"]:checked {
     background-color: var(--color-highlight);
 }
 
-/* Create a custom checkmark
-input[type="checkbox"]:checked::after {
-    border: solid white;
-    border-width: 0 2px 2px 0;
-    content: '';
-    height: 8px;
-    left: 5px;
-    position: absolute;
-    top: 2px;
-    transform: rotate(45deg);
-    width: 4px;
-} */
 
 /* compositions - flexible, component-agnostic layouts */
 
@@ -93,7 +89,7 @@ input[type="checkbox"]:checked::after {
 }
 
 .flow > * + * {
-    margin-top: var(--flow-space, 1em);
+    margin: var(--flow-space, 1em) 0;
 }
 
 .horizontal-distributed {
@@ -103,9 +99,10 @@ input[type="checkbox"]:checked::after {
 }
 
 .wrapper {
-    margin: 1rem auto;
+    /* background-color: red; */
+    margin: var(--flow-space) auto;
 	max-width: clamp(360px, 80ch, 1100px);
-	padding: 0 1rem;
+	padding: var(--space-3xs) var(--space-m);
 	width: 100%;
 }
 
@@ -272,7 +269,7 @@ input[type="checkbox"]:checked::after {
 .main-menu ul {
     border-radius: 2rem;
 	list-style: none;
-    padding: 1rem var(--space-s);
+    padding: var(--flow-space) var(--space-s);
 }
 
 .main-menu ul li {
