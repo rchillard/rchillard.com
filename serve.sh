@@ -5,7 +5,7 @@
 DIR=$(dirname $(readlink -f $0))
 source $DIR/scripts/util.sh
 
-SRC_DIR=(${DIR}/src)
+SRC_DIR=(${DIR}/build)
 SITE_URL="http://0.0.0.0:8000/"
 
 # Open Firefox tab

@@ -20,7 +20,7 @@ message notify "MD files will be converted to HTML using pandoc..."
 FILE_COUNT_HTML_GENERATED=0
 
 # Create an array containing all .md files
-mapfile -t md_files_array < <(find ./src/leadership ./src/technology ./src/html -type f -name "*.md")
+mapfile -t md_files_array < <(find ./build/leadership ./build/technology ./build/html -type f -name "*.md")
 
 FILE_COUNT_HTML_POSSIBLE=${#md_files_array[@]}
 
